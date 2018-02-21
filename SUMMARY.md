@@ -4,7 +4,7 @@
 * HTML
 
   * 基础
-    * 实体
+    * [实体](/HTML/base/base_entity.md)
     * 全局属性
   * 标签
 
