@@ -4,7 +4,7 @@
 * HTML
 
   * 基础
-    * [实体](/HTML/实体.md "实体")
+    * [实体](/HTML/base_entity.md "实体")
     * 全局属性
   * 标签
 
@@ -44,7 +44,9 @@
   * Linux
 
 * 网络
+
   * HTTP
+
 * 工具
   * 版本管理
     * GIT
