@@ -30,10 +30,12 @@
     * react-native
 
 * 后端
+
   * NodeJS
   * Express
   * Mongodb
   * Linux
+
 * 网络
   * HTTP
 * 工具
@@ -43,6 +45,8 @@
     * SVN
   * 构建工具
     * webpack
+
+* 一些坑
 
 
 
