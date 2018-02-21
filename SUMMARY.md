@@ -4,10 +4,34 @@
 * HTML
 * CSS
 * JS
+  * ECMAScript
+  * ES6
+  * DOM
+  * BOM
+  * 模块化
+  * AJAX和本地存储
+  * Jquery
+  * 优化
+
 * 前端框架
+  * VUE
+  * React
+    * react
+    * react-native
 * 后端
+  * NodeJS
+  * Express
+  * Mongodb
+  * Linux
+* 网络
+  * HTTP
 * 工具
   * 版本管理
+    * GIT
+      * GitHub
+    * SVN
+  * 构建工具
+    * webpack
 
 
 
