@@ -5,7 +5,7 @@
 
   * 基础
     * [实体](/HTML/base/base_entity.md)
-    * 全局属性
+    * [全局属性](/HTML/base/base_attr.md)
   * 标签
 
 * CSS
