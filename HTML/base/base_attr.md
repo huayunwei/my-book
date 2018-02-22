@@ -44,7 +44,7 @@
 <div tabindex="3"></div>
 ```
 
-### titlle
+### title
 
 * 作用：规定元素的额外信息，鼠标悬停在元素上时会显示
 * 格式：
@@ -57,9 +57,16 @@
 
 ### contenteditable
 
-* 作用：规定对于默认不可编辑的元素是否可以编辑
+* 作用：指定对于默认不可编辑的元素是否可以编辑
 * 值：true / false ,不写值默认为true
 * 兼容性：IOS Safari 5.1以后,Android 3以后支持
+* 格式
+
+```markdown
+<div contenteditable>123</div>
+<!-- 对于默认就可以编辑的元素，设置不可编辑是无效的 -->
+<input type="text" contenteditable="false" />
+```
 
 
 
