@@ -68,5 +68,14 @@
 <input type="text" contenteditable="false" />
 ```
 
+### data-\*
+
+* 作用：元素自定义属性的方法
+
+* 兼容性：IE10以下不支持用dataset获取data-\*属性,但是可以设置data-\*属性并通过getAttribute获取
+* 格式
+
+
+
 
 
