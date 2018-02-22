@@ -67,7 +67,7 @@
 
     2. 使用float后，元素转变成display：block
 
-    3. 使用position:absolute后，元素转变成display：block
+    3. 使用position:absolute，fixed后，元素转变成display：block
 
 * 按内容模型区分 - [官网地址](https://www.w3.org/TR/html5/dom.html#content-models)
 
