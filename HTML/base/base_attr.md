@@ -31,5 +31,16 @@
 <div style="color:green;font-size:13px;">hello</div>
 ```
 
+### tabindex
+
+* 作用：获取焦点的顺序
+* 值：Number，从1开始，1代表第一个获取焦点的值
+* 格式：
+
+```markdown
+<div tabindex="1"></div>
+<div tabindex="3"></div>
+```
+
 
 
