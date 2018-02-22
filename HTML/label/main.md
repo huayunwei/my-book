@@ -23,6 +23,10 @@
 
     * 常见元素
 
+    ```
+    div h1-h6 p table ul ol 等
+    ```
+
   * 行内元素 - inline
 
     * 特点
@@ -37,11 +41,25 @@
 
     * 常见元素
 
+    ```
+    span i label strong small em br a
+    ```
+
   * 行内块状元素 - inline-block
 
     * 特点
 
+      1. 对内是块状元素
+
+      2. 对外是行内元素
+
+      3. 即可以设置宽，高等盒模型属性，但是和其他元素是在同一行的
+
     * 常见元素
+
+    ```
+    input img select textarea
+    ```
 
   * 转换
 
