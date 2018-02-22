@@ -58,7 +58,7 @@
     * 常见元素
 
     ```
-    input img select textarea
+    input img(谷歌浏览器默认display是inline,但是可以设置宽高) select textarea button
     ```
 
   * 转换
