@@ -9,9 +9,11 @@
 
 * 按display区分：
 
-* 块级元素 - block
-* 行内元素 - inline
-* 行内块状元素 - inline-block
+  * 块级元素 - block
+
+  * 行内元素 - inline
+
+  * 行内块状元素 - inline-block
 
 ### 标签的嵌套规则
 
