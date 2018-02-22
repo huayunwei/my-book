@@ -81,5 +81,9 @@
 <div data-name="div的名字">data-*</div>
 ```
 
+* 获取：getAttribute / dataset
+
+![](/assets/1.png)
+
 
 
