@@ -19,15 +19,33 @@
 
   * 元数据型：用于说明其他内容的表现或行为，或者在当前文档和其他文档之间建立联系的元素
 
-  * 区块型
+  ```
+  base link meta noscript script style template title
+  ```
 
-  * 标题型
+  * 区块型：用于定义标题及页脚范围的元素
 
-  * 文档流型
+  ```
+  article aside nav section
+  ```
 
-  * 语句型
+  * 标题型：定义一个区块/章节的标题
 
-  * 内嵌型
+  ```
+  h1 h2 h3 h4 h5 h6
+  ```
+
+  * 文档流型：应用程序和文档的主体部分中使用的大部分元素
+
+    包括除了元数据中base，link，meta，style，title之外的所有其他类型的元素
+
+  * 语句型：标记段落级文本的元素
+
+  * 内嵌型：引用或插入到文档中其他资源的元素
+
+  ```
+  audio canvas embed iframe img math object svg video
+  ```
 
   * 交互型
 
