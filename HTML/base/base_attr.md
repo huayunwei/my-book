@@ -81,9 +81,29 @@
 <div data-name="div的名字">data-*</div>
 ```
 
-* 获取：getAttribute / dataset
+* 获取：
+  * getAttribute：结果为一个字符串，必须给出要获取的属性名
+  * dataset：结果为一个对象，可以获得元素全部data-\*的属性
 
 ![](/assets/1.png)
+
+### draggable {#draggableie8-不支持}
+
+* 作用：拖动元素
+* 值：true可拖动 / false不可拖动 / auto使用浏览器默认行为
+* 兼容性：安卓基本不支持，IE部分支持
+
+### hidden
+
+* 作用：隐藏元素，等同于style="display:none;"
+* 兼容性：IE10以下都不兼容
+* 格式
+
+```markdown
+<div hidden>隐藏元素</div>
+```
+
+
 
 
 
