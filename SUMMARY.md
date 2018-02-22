@@ -6,6 +6,9 @@
   * 基础
     * [实体](/HTML/base/base_entity.md)
     * [全局属性](/HTML/base/base_attr.md)
+    * 文档声明
+    * 文档头部
+    * 文档结构
   * 标签
     * [介绍](/HTML/label/main.md)
     * 基本标签
