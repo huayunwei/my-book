@@ -34,7 +34,7 @@
 ### tabindex
 
 * 作用：获取焦点的顺序
-* 值：Number，从1开始，1代表第一个获取焦点的值
+* 值：Number，从1开始，1代表第一个获取焦点
 * 格式：
 
 ```markdown
@@ -42,7 +42,21 @@
 <div tabindex="3"></div>
 ```
 
+### titlle
+
+* 作用：规定元素的额外信息，鼠标悬停在元素上时会显示
+* 格式：
+
+```markdown
+<div title="hello">悬停显示hello</div>
+```
+
+## HTML5新增全局属性
+
+### contenteditable
+
+* 作用：规定对于默认不可编辑的元素是否可以编辑
+* 值：true / false ,不写值默认为true
 
 
-&lt;iframe href="http://www.baidu.com"&gt;&lt;/iframe&gt;
 
