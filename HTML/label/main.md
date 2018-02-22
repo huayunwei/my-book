@@ -63,6 +63,12 @@
 
   * 转换
 
+    1. 使用display转换
+
+    2. 使用float后，元素转变成display：block
+
+    3. 使用position:absolute后，元素转变成display：block
+
 * 按内容模型区分 - [官网地址](https://www.w3.org/TR/html5/dom.html#content-models)
 
   * 元数据型：用于说明其他内容的表现或行为，或者在当前文档和其他文档之间建立联系的元素
