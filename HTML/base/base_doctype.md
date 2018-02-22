@@ -11,7 +11,7 @@
 * 严格型strict
 
 ```
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 ```
 
 * 过渡型transitional
@@ -27,6 +27,8 @@
 ```
 
 ### 为什么HTML5和HTML4的声明不同
+
+* DTD：文档类型定义
 
 
 
