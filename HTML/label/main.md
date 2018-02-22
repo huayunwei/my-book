@@ -11,9 +11,39 @@
 
   * 块级元素 - block
 
+    * 特点：
+
+      1. 总是在新行上开始，占据一整行
+
+      2. 盒模型相关属性都可以设置
+
+      3. 宽度默认是他容器的100%
+
+      4. 可以容纳内联元素和其他块元素
+
+    * 常见元素
+
   * 行内元素 - inline
 
+    * 特点
+
+      1. 和其他元素在同一行
+
+      2. 可以设置padding，border，左右margin，但是width，height，上下margin，line-height设置后无效
+
+      3. 宽度和高度只和内容有关
+
+      4. 只能容纳文本或其他行内元素
+
+    * 常见元素
+
   * 行内块状元素 - inline-block
+
+    * 特点
+
+    * 常见元素
+
+  * 转换
 
 * 按内容模型区分 - [官网地址](https://www.w3.org/TR/html5/dom.html#content-models)
 
@@ -47,7 +77,7 @@
   audio canvas embed iframe img math object svg video
   ```
 
-  * 交互型
+  * 交互型：用于与用户交互的元素
 
 ### 标签的嵌套规则
 
