@@ -57,6 +57,7 @@
 
 * 作用：规定对于默认不可编辑的元素是否可以编辑
 * 值：true / false ,不写值默认为true
+* 兼容性：IOS Safari 5.1以后,Android 3以后支持
 
 
 
