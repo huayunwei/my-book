@@ -51,7 +51,7 @@ index.unuse();//不使用index样式
                   {
                       loader:'css-loader',
                       options:{
-                          minimize:true//去掉空格
+                          minimize:true//去掉空白
                       }
                   }
               ]
