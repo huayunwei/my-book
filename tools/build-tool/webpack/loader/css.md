@@ -23,7 +23,21 @@ index.use();//使用index样式
 index.unuse();//不使用index样式
 ```
 
+* options
+
+  1. insertAt：插入位置
+
+  2. insertInto：插入到dom
+
+  3. singleton：是否只使用一个style标签
+
+  4. transform：转化
+
 ### css-loader - 允许css文件以import的形式添加到.js文件中
+
+* options
+
+### css-loader和style-loader在配置中的写法
 
 ```markdown
 module:{
