@@ -38,8 +38,27 @@ index.unuse();//不使用index样式
 * options
   1. alias：解析的别名
   2. importLoader
-  3. Minimize：是否压缩
+  3. minimize：是否压缩
   4. modules：启用css-modules
+
+  ```
+  module:{
+      rules:[
+          {
+              test:/\.css$/,
+              use:[
+                  {loader:'style-loader'},
+                  {
+                      loader:'css-loader',
+                      options:{
+                          minimize:true
+                      }
+                  }
+              ]
+          }
+      ]
+  }
+  ```
 
 ### css-loader和style-loader在配置中的写法
 
