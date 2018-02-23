@@ -43,7 +43,7 @@ module.exports={
       ]
   }
 
-  //build文件下的文件
+  //build文件夹下的文件
   A.bundle.js B.bundle.js common.bundle.js (如果entry中有jquery.js则会输出jquery.bundle.js但是里面没有内容)
   ```
 
@@ -73,6 +73,9 @@ module.exports={
           })
       ]
   }
+
+  //build文件夹下的文件
+  A.bundle.js B.bundle.js jquery.bundle.js(webpack和jquery都被打包在该文件中)
   ```
 
   * 分别提取第三方代码和webpack的代码
@@ -97,6 +100,9 @@ module.exports={
           })
       ]
   }
+
+  //build文件夹下的文件
+  A.bundle.js B.bundle.js jquery.bundle.js(只有jquery代码) webpack.bundle.js(只有webpack代码)
   ```
 
   * 分别提取业务代码中的公共代码和第三方代码和webpack代码
