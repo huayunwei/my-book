@@ -11,6 +11,7 @@ npm install purifycss-webpack glob-all --save-dev
 
 ```
 var PurifyCSS = require('purifycss-webpack');
+var glob = require('glob-all');//用于书写多个路径
 plugins:[
     new PurifyCSS({
         path:glob.sync([
