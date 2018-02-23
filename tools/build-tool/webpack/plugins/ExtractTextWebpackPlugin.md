@@ -33,6 +33,9 @@ plugins:[
         filename:'[name].min.css'
     })
 ]
+
+//手动在html中添加link标签引入提取后的css文件
+<link rel="styleSheet" href="xxx.min.css" />
 ```
 
 
