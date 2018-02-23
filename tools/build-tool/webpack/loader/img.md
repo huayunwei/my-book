@@ -6,7 +6,7 @@
 
 ### img-loader -- 对img进行压缩
 
-### 
+### webpack-spritesmith\(生成css和.png文件后需要手动将css中生成的类名，添加到html中\)、postcss-sprites\(无限报错\)
 
 
 
