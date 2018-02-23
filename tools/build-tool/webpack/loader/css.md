@@ -16,6 +16,11 @@ module:{
         }
     ]
 }
+
+//入口文件中
+import index from 'index.css'
+index.use();//使用index样式
+index.unuse();//不使用index样式
 ```
 
 ### css-loader - 允许css文件以import的形式添加到.js文件中
