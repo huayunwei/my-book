@@ -18,7 +18,7 @@ module:{
     ]
 }
 
-//在html引入打包后的js文件，即可以使用css
+//在html引入打包后的js文件，即可以使用css，css会被直接添加到head中
 <script src="app.bundle.js"></script>
 ```
 
