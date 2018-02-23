@@ -36,6 +36,10 @@ index.unuse();//不使用index样式
 ### css-loader - 允许css文件以import的形式添加到.js文件中
 
 * options
+  1. alias：解析的别名
+  2. importLoader
+  3. Minimize：是否压缩
+  4. modules：启用css-modules
 
 ### css-loader和style-loader在配置中的写法
 
