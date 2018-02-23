@@ -42,6 +42,9 @@ module.exports={
           })
       ]
   }
+
+  //build文件下的文件
+  A.bundle.js B.bundle.js common.bundle.js (如果entry中有jquery.js则会输出jquery.bundle.js但是里面没有内容)
   ```
 
   * 提取第三方代码
