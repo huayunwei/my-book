@@ -123,7 +123,7 @@ module.exports={
       },
       plugins:[
           new webpack.optimize.CommonsChunkPlugin({
-              name:'common',
+              name:'common',//A和B中的公共代码会被提取到common文件中
               minChunks:2,
               chunks:['A','B']//指定提取代码的范围，如果不指定会报错
           }),
