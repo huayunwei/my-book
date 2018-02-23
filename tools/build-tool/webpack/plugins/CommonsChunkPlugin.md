@@ -19,6 +19,10 @@ module.exports={
 name:string/array 打包后文件的name值,打包后文件的整体名字是根据output中定义的filename定义的
 filename：忽略output中的filename定义，而是使用此处定义的名字作为打包后文件的名字
 minChunks：最少出现多少次就被认定为公共代码进行提取
+chunks：提取代码的范围
+children：是否在子模块中查找
+deepChildren：是否在所有子模块都超找
+async：异步代码块
 ```
 
 * 实例
