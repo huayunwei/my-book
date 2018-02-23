@@ -22,8 +22,6 @@ module.exports={
   6. deepChildren：是否在所有子模块都查找
   7. async：异步代码块
 
-
-
 * 实例
 
   A.js  B.js  jquery.js
