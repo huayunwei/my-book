@@ -13,6 +13,7 @@ npm install purifycss-webpack glob-all --save-dev
 var PurifyCSS = require('purifycss-webpack');
 var glob = require('glob-all');//用于书写多个路径
 plugins:[
+    //必须在ExtractTextWebpackPlugin的后面写
     new PurifyCSS({
         path:glob.sync([
             path.join(__dirname,'会使用到css类名或id名的文件的地址')
