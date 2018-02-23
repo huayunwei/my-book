@@ -67,8 +67,8 @@ module.exports={
           new webpack.optimize.CommonsChunkPlugin({
               name:'jquery',//第三方库打包的名字
               //如果名字和入口文件的名字不一致，会将webpack打包到此处定义的文件中，而将入口文件中定义的第三方库打包到另外的文件中
-              //只定义名字不定义minChunks或minChunks定义为Infinity
-              //如果定义了minChunks为具体数字，则同上面的情况
+              //minChunks定义为Infinity同只定义name的情况
+              //minChunks为具体数字，则同上方提取公共代码的情况
           })
       ]
   }
