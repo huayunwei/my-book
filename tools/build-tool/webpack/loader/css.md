@@ -103,7 +103,7 @@ module:{
     rules:[
         {
             test:/\.less$/,(sass则为/.\scss$/)
-            use:['style-loader','css-loader','less-loader'(sass为sass-loader)]
+            use:['style-loader','css-loader','less-loader'(scss为sass-loader)]
         }
     ]
 }
