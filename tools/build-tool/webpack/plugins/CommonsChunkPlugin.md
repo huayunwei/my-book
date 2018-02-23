@@ -77,7 +77,7 @@ module.exports={
 
   * 分别提取第三方代码和webpack的代码
 
-  ```
+  ```markdown
   //将webpack和第三方代码提取到一个文件中
   const path = require('path');
   const webpack = require('webpack');
