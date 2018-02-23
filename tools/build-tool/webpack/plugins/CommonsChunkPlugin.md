@@ -15,10 +15,33 @@ module.exports={
 
 * opt的值
 * 实例
+
+  A.js  B.js  jquery.js
+
   * 提取代码中的公共代码
 
   ```markdown
   //将指定次数的公共代码提取到一个公共文件中
+  const path = require('path');
+  const webpack = require('webpack');
+
+  module.exports={
+      entry:{
+          A:'A.js',
+          B:'B.js',
+          //jquery:'jquery.js'即使在入口中添加了jquery，jquery的代码依旧会被作为公共代码打包到common文件中
+      },
+      output:{
+          path:path.resolve(__dirname,'build'),
+          filename:'[name].bundle.js'
+      },
+      plugins:[
+          new webpack.optimize.CommonsChunkPlugin({
+              name:'common',//公共代码打包后的名字common.bundle.js
+              minChunks:2//最少出现多少次会被认为是公共代码被打包
+          })
+      ]
+  }
   ```
 
   * 提取第三方代码
