@@ -113,15 +113,32 @@ module:{
 
 ### PostCSS -- 对css的一些转化
 
-* 相关插件  
-  1. autoprefixer：添加浏览器前缀  
-  2. cssnano：等同于css-loader的minimize选项，进行压缩  
+* 相关插件
+  1. autoprefixer：添加浏览器前缀
+  2. cssnano：等同于css-loader的minimize选项，进行压缩
   3. postcss-cssnext：使用未来的css语法
+  4. postcss-import
+  5. postcss-url
+  6. postcss-assets
 
 * 安装
 
 ```
 npm install postcss postcss-loader autoprefixer cssnano postcss-cssnext
+```
+
+* 使用 - 写在css-loader后，其他css的loader之前
+
+```
+{
+    loader:'postcss-loader',
+    options:{
+        indent:'postcss',
+        plugins:[
+            require('autoprefixer')()
+        ]
+    }
+}
 ```
 
 
