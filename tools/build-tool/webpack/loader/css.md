@@ -109,7 +109,7 @@ module:{
 }
 ```
 
-### 提取css文件 -- 使用ExtractTextWebpackPlugin插件
+### 提取css文件 -- 使用[ExtractTextWebpackPlugin](/tools/build-tool/webpack/plugins/ExtractTextWebpackPlugin.md)插件
 
 
 
