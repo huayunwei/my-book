@@ -102,7 +102,9 @@ filename：忽略output中的filename定义，而是使用此处定义的名字�
       },
       plugins:[
           new webpack.optimize.CommonsChunkPlugin({
-              name:['jquery','webpack']
+              name:['jquery','webpack'],
+              //如果定义了filename,则在build文件夹中打包文件名为：jquery.js和webpack.js
+              //filename:[name].js
           })
       ]
   }
