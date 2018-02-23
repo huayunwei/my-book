@@ -123,7 +123,9 @@ module.exports={
       },
       plugins:[
           new webpack.optimize.CommonsChunkPlugin({
-              name:['jquery','webpack']
+              name:'common',
+              minChunks:2,
+              chunks:['A','B']
           }),
           new webpack.optimize.CommonsChunkPlugin({
               name:['jquery','webpack']
@@ -133,10 +135,7 @@ module.exports={
 
   //build文件夹下的文件
   A.bundle.js B.bundle.js common.bundle.js(A,B中公共代码) jquery.bundle.js(只有jquery代码) webpack.bundle.js(只有webpack代码)
-
   ```
-
-
 
 
 
