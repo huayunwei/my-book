@@ -4,7 +4,7 @@
 * 安装
 
 ```
-npm install purifycss-webpack glob --save-dev
+npm install purifycss-webpack glob-all --save-dev
 ```
 
 * 使用
