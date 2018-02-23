@@ -107,5 +107,36 @@ module.exports={
 
   * 分别提取业务代码中的公共代码和第三方代码和webpack代码
 
+  ```markdown
+  //将webpack和第三方代码提取到一个文件中
+  const path = require('path');
+  const webpack = require('webpack');
+  module.exports={
+      entry:{
+          A:'A.js',
+          B:'B.js',
+          jquery:'jquery'//第三方库必须加入到入口文件中，否则不会进行提取
+      },
+      output:{
+          path:path.resolve(__dirname,'build'),
+          filename:'[name].bundle.js'
+      },
+      plugins:[
+          new webpack.optimize.CommonsChunkPlugin({
+              name:['jquery','webpack']
+          }),
+          new webpack.optimize.CommonsChunkPlugin({
+              name:['jquery','webpack']
+          })
+      ]
+  }
+
+  //build文件夹下的文件
+  A.bundle.js B.bundle.js common.bundle.js(A,B中公共代码) jquery.bundle.js(只有jquery代码) webpack.bundle.js(只有webpack代码)
+
+  ```
+
+
+
 
 
