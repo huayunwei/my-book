@@ -96,5 +96,18 @@ npm install less-loader less --save-dev
 npm install sass-loader node-sass --save-dev
 ```
 
+### sass-loader,lass-loader使用方法
+
+```
+module:{
+    rules:[
+        {
+            test:/\.less$/,(sass则为/.\scss$/)
+            use:['style-loader','css-loader','less-loader'(sass为sass-loader)]
+        }
+    ]
+}
+```
+
 
 
