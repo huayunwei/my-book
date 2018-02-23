@@ -10,7 +10,7 @@ npm install purifycss-webpack glob-all --save-dev
 * 使用
 
 ```
-var PurifyCSS = require('purifycss-webpack')
+var PurifyCSS = require('purifycss-webpack');
 plugins:[
     new PurifyCSS({
         path:glob.sync([
