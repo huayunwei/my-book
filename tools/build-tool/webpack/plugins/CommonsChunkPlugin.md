@@ -14,6 +14,12 @@ module.exports={
 ```
 
 * opt的值
+
+```markdown
+name:string/array 打包后文件的name值,打包后文件的整体名字是根据output中定义的filename定义的
+filename：忽略output中的filename定义，而是使用此处定义的名字作为打包后文件的名字
+```
+
 * 实例
 
   A.js  B.js  jquery.js
