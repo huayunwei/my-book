@@ -35,13 +35,13 @@ index.unuse();//不使用index样式
 
 ### css-loader - 允许css文件以import的形式添加到.js文件中
 
-* options
-  1. alias：解析的别名
-  2. importLoader
-  3. minimize：是否压缩
+* options  
+  1. alias：解析的别名  
+  2. importLoader  
+  3. minimize：是否压缩  
   4. modules：启用css-modules
 
-  ```
+  ```markdown
   module:{
       rules:[
           {
@@ -51,7 +51,7 @@ index.unuse();//不使用index样式
                   {
                       loader:'css-loader',
                       options:{
-                          minimize:true
+                          minimize:true//去掉空格
                       }
                   }
               ]
