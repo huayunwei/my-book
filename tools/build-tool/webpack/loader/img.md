@@ -6,7 +6,7 @@
 
 ### img-loader -- 对img进行压缩
 
-### postcss-sprites -- 将img合成为一张雪碧图
+### 
 
 
 
