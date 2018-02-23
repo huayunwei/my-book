@@ -48,6 +48,11 @@ module.exports={
   ```
 
   * 提取第三方代码
+
+  ```markdown
+
+  ```
+
   * 分别提取第三方代码和webpack的代码
   * 分别提取业务代码中的公共代码和第三方代码和webpack代码
 
