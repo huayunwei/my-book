@@ -116,7 +116,7 @@ module:{
 * 相关插件  
   1. autoprefixer：添加浏览器前缀  
   2. postcss-cssnano：等同于css-loader的minimize选项，进行压缩  
-  3. postcss-cssnext
+  3. postcss-cssnext：使用未来的css语法
 
 * 安装
 
