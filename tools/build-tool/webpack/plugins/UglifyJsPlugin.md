@@ -1,4 +1,8 @@
-## UglifyJsPlugin -- 删除JS中一次都没有使用过的代码
+## UglifyJsPlugin
+
+* 作用：删除无用的js代码，压缩js代码，将代码中的变量定义成a,b,c短变量形式
+
+
 
 * 使用
 
@@ -7,6 +11,11 @@ plugins:[
     new Webpack.optimize.UglifyJsPlugin()
 ]
 ```
+
+* 问题
+  * 这个插件本身并不支持
+
+
 
 
 
