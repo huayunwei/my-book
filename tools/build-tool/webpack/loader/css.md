@@ -82,7 +82,19 @@ module:{
 
 ### sass-loader
 
+* 安装
+
+```
+npm install less-loader less --save-dev
+```
+
 ### lass-loader
+
+* 安装
+
+```
+npm install sass-loader node-sass --save-dev
+```
 
 
 
