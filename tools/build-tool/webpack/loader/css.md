@@ -2,6 +2,22 @@
 
 ### style-loader - 用于将css加入到打包后的js文件中
 
+* style-loader/useable
+
+```
+module:{
+    rules:[
+        {
+            test:/\.css$/,
+            use:[
+                {loader:'style-loader/useable'},
+                {loader:'css-loader'}
+            ]
+        }
+    ]
+}
+```
+
 ### css-loader - 允许css文件以import的形式添加到.js文件中
 
 ```markdown
