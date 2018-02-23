@@ -125,7 +125,7 @@ module.exports={
           new webpack.optimize.CommonsChunkPlugin({
               name:'common',
               minChunks:2,
-              chunks:['A','B']
+              chunks:['A','B']//指定提取代码的范围，如果不指定会报错
           }),
           new webpack.optimize.CommonsChunkPlugin({
               name:['jquery','webpack']
