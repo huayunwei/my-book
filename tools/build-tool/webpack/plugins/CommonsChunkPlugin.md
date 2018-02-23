@@ -93,7 +93,7 @@ module.exports={
       },
       plugins:[
           new webpack.optimize.CommonsChunkPlugin({
-          name:'jquery',//第三方库打包的名字,会将webpack和第三方库打包该文件中
+              name:['jquery','webpack']
           })
       ]
   }
