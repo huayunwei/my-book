@@ -86,13 +86,13 @@ module.exports={
   const webpack = require('webpack');
   module.exports={
       entry:{
-      A:'A.js',
-      B:'B.js',
-      jquery:'jquery'//第三方库必须加入到入口文件中，否则不会进行提取
+          A:'A.js',
+          B:'B.js',
+          jquery:'jquery'//第三方库必须加入到入口文件中，否则不会进行提取
       },
       output:{
-      path:path.resolve(__dirname,'build'),
-      filename:'[name].bundle.js'
+          path:path.resolve(__dirname,'build'),
+          filename:'[name].bundle.js'
       },
       plugins:[
           new webpack.optimize.CommonsChunkPlugin({
