@@ -12,5 +12,28 @@ npm install extract-text-webpack-plugin --save-dev
 const ExtractTextWebpackPlugin = requrie('extract-text-webpack-plugin');
 ```
 
+* 使用
+
+```
+modules:{
+    rules:[
+        {
+            test:/\.css$/,
+            use:ExtractTextWebpackPlugin.extract({
+                fallback:{
+                    loader:'style-loader'
+                },
+                use:['css-loader']
+            })
+        }
+    ]
+},
+plugins:[
+    new ExtractTextWebpackPlugin({
+        filename:'[name].min.css'
+    })
+]
+```
+
 
 
