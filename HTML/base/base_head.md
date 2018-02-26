@@ -40,6 +40,7 @@
 <meta http-equiv="Pragma" content="No-cach">
 
 //默认使用IE高版本来渲染页面
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 ```
 
 ### title
