@@ -8,7 +8,7 @@
     * [条件注释](/HTML/base/base_comment.md)
     * [文档声明](/HTML/base/base_doctype.md)
     * [文档头部](/HTML/base/base_head.md)
-    * [文档结构](/HTML/base/base_structure.md)
+
     * [文档渲染过程](/HTML/base/base_render.md)
   * 标签
     * [介绍](/HTML/label/main.md)
