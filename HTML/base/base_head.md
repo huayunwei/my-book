@@ -61,7 +61,7 @@
   <link rel="shortcut icon" href="1.ico"/>
   ```
 
-  * stylesheet
+  * stylesheet：样式表
 
 * href：指定外部资源地址
 
