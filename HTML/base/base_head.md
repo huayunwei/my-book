@@ -69,7 +69,11 @@
 
 * href：指定外部资源地址
 
-* media：媒体查询
+* media：媒体查询，指定在那种媒体下引入外部资源
+
+```
+<link rel="stylesheet" href="xx.css" media="screen and (max-width:980px)">
+```
 
 ### style
 
