@@ -3,6 +3,11 @@
 ### meta
 
 * charset：声明当前文档所使用的字符编码
+
+```markdown
+<meta charset="utf-8"/>
+```
+
 * name：
 * http-equiv：
 
