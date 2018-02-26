@@ -27,7 +27,18 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
 ```
 
-* http-equiv：
+* http-equiv：配合content使用
+
+```markdown
+//多少秒刷新一次页面
+<meta http-equiv="refresh" content="5">
+
+//多少秒跳转到其他页面
+<meta http-equiv="refresh" content="5;url=www.baidu.com">
+
+//禁止缓存
+<meta http-equiv="Pragma" content="No-cach">
+```
 
 ### title
 
