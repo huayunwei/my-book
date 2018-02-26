@@ -2,7 +2,9 @@
 
 * [介绍](README.md)
 * HTML
+
   * [基础](ji-chu.md)
+
     * [实体](/HTML/base/base_entity.md)
     * [全局属性](/HTML/base/base_attr.md)
     * [条件注释](/HTML/base/base_comment.md)
@@ -10,6 +12,7 @@
     * [文档头部](/HTML/base/base_head.md)
 
     * [文档渲染过程](/HTML/base/base_render.md)
+
   * 标签
     * [介绍](/HTML/label/main.md)
     * a
@@ -20,12 +23,15 @@
     * script
     * svg
     * table
+    * 内联标签
+    * 结构标签
     * 表单
       * 介绍
       * input
       * select
       * textarea
       * button
+
 * CSS
   * 基础
   * 布局
