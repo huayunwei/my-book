@@ -15,6 +15,15 @@
 <meta name="keywords" content="前端 总结">
 
 //描述
+<meta name="description" content="前端知识总结">
+
+//作者
+<meta name="author" content="">
+
+//版权
+<meta name="copyright" content="">
+
+//视口
 ```
 
 * http-equiv：
