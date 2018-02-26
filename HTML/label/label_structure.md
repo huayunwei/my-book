@@ -4,5 +4,13 @@
 
 article
 
+aside
 
+nav
+
+header
+
+footer
+
+main
 
