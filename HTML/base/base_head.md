@@ -55,7 +55,7 @@
 
 * rel：指定资源类型
 
-  * icon：浏览器标签上网站的图标
+  * icon：浏览器标签上的图标
 
   ```
   <link rel="shortcut icon" href="1.ico"/>
