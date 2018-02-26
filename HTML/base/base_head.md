@@ -45,6 +45,10 @@
 
 ### title -- 定义文档标题
 
+```markdown
+<title>标题</titile>
+```
+
 ### base
 
 ### link
