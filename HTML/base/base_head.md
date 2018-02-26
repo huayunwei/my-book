@@ -75,9 +75,9 @@
 <link rel="stylesheet" href="xx.css" media="screen and (max-width:980px)">
 ```
 
-### style
+### style -- 嵌入内部样式
 
-### script
+### script -- 嵌入内部脚本、引入外部脚本
 
 
 
