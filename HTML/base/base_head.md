@@ -49,7 +49,7 @@
 <title>标题</titile>
 ```
 
-### base
+### base -- 指定文档里所有相对URL地址的基础URL
 
 ### link
 
