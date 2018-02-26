@@ -63,6 +63,10 @@
 
   * stylesheet：样式表
 
+  ```
+  <link rel="stylesheet" href="xx.css">
+  ```
+
 * href：指定外部资源地址
 
 * media：媒体查询
