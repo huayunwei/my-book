@@ -36,5 +36,5 @@ HTML4基于SGML，需要引用DTD
 
 HTML5不基于SGML，是结合SGML,HTML,XHTML1.X语法形成的有自己规则的合成语言
 
-
+HTML5需要doctype来启用浏览器的标准渲染模式
 
