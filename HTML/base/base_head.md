@@ -53,6 +53,18 @@
 
 ### link -- 指定外部资源与当前文档的关系
 
+* rel：指定资源类型
+  * icon
+
+  ```
+  <link rel="shortcut icon" href="1.ico"/>
+  ```
+
+  * stylesheet
+
+* href：指定外部资源地址
+* media：媒体查询
+
 ### style
 
 ### script
