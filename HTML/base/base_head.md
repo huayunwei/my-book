@@ -9,6 +9,12 @@
 ```
 
 * name：搭配content使用，定义一些文档级的元数据
+
+```markdown
+//关键词
+<meta name="keywords" content="前端 总结">
+```
+
 * http-equiv：
 
 ### title
