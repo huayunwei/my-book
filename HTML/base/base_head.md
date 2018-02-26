@@ -8,7 +8,7 @@
 <meta charset="utf-8"/>
 ```
 
-* name：
+* name：搭配content使用，定义一些文档级的元数据
 * http-equiv：
 
 ### title
