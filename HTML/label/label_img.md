@@ -11,6 +11,7 @@
 * usemap：为图像定义客户端图像映射
 * srcset：指定图片的地址和对应的图片质量
 * size：设置图片的尺寸临界点
+* crossorigin：跨域
 
 ### figure
 
