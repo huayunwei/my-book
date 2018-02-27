@@ -15,7 +15,7 @@
 
 ### figure -- 用来插入图片和figcaption配合使用
 
-### figcaption
+### figcaption -- figure的标题
 
 ## 热点
 
