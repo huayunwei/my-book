@@ -46,7 +46,16 @@
   * valuetype：规定值的MIME类型
 
 * video：视频，IE8-不支持
+
 * audio：音频，IE8-不支持
+
+```
+//音频
+<audio>
+    <source src="1.mp3" type="audio/mp3" />
+    <embed height="" width="" src="1.mp3" />
+</audio>
+```
 
 
 
