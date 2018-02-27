@@ -5,6 +5,12 @@
 ```
 <table>
     <caption>表格的标题</caption>
+    <thead>
+        <!--表头-->
+        <tr>
+            <th></th>
+        </tr>
+    </thead>
 </table>
 ```
 
