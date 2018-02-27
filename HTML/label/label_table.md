@@ -2,7 +2,7 @@
 
 ### 结构：
 
-```
+```markdown
 <table>
     <caption>表格的标题</caption>
     <thead>
