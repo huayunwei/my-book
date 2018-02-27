@@ -49,7 +49,7 @@
 
 * audio：音频，IE8-不支持
 
-```
+```markdown
 //音频
 <audio>
     <source src="1.mp3" type="audio/mp3" />
