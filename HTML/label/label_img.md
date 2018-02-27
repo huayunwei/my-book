@@ -34,7 +34,17 @@
 
 * alt：文本
 * coords：定义点击区域的坐标
+  * 
 * href：此区域的链接地址
+* shape：此区域的形状
+  * circ/circle：圆形
+  * poly/polygon：多边形
+  * rect/rectangle：矩形
+  * default：整体
+
+```
+
+```
 
 
 
