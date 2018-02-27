@@ -39,10 +39,14 @@
   * typemustmatch：检测资源类型和type属性是否相符
 
 * param：给内嵌的插件传递参数
+
   * name：定义参数的名称
   * value：规定参数的值
   * type：规定参数的MIME类型
   * valuetype：规定值的MIME类型
+
+* video：视频，IE8-不支持
+* audio：音频，IE8-不支持
 
 
 
