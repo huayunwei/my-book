@@ -39,5 +39,11 @@ col -- 为表格中的列定义属性
 
 * span：Number，默认只定义一列的属性值，添加该属性后可以指定多列的属性值
 
+```
+<table>
+    <col span="2" style="background:red;">
+</table>
+```
+
 colgroup -- 和col一样
 
