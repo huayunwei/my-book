@@ -6,21 +6,24 @@
 <table>
     <!--caption可以设置margin和padding-->
     <caption>表格的标题</caption>
+    
+    <!--表头-->
     <thead>
-        <!--表头-->
         <tr>
             <th></th>
         </tr>
     </thead>
+    
+    <!--表体-->
     <tbody>
-        <!--表体-->
+        
         <tr>
             <td></td>
         </tr>
     </tbody>
-    <tfoot>
-        <!--页脚-->
-    </tfoot>
+    
+    <!--页脚-->
+    <tfoot> </tfoot>
 </table>
 ```
 
