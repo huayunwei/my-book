@@ -17,7 +17,9 @@
             <td></td>
         </tr>
     </tbody>
-    <tfoot></tfoot>
+    <tfoot>
+        <!--页脚-->
+    </tfoot>
 </table>
 ```
 
