@@ -26,5 +26,15 @@
   * src：嵌入内容的URL
   * type：嵌入内容的类型
 
+* object：定义一个嵌入的对象
+  * height：嵌入对象高度
+  * width：嵌入对象的宽度
+  * type：嵌入对象的类型
+  * name：对象的名称，以便在脚本中使用
+  * data：设置对象的URL
+  * usemap：设置与对象一同使用的客户端图像映射的URL
+  * form：规定对象所属的一个或多个表单
+  * typemustmatch：检测资源类型和type属性是否相符
+
 
 
