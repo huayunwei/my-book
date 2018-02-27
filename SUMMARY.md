@@ -44,6 +44,7 @@
     * Less
 
 * JS
+
   * ECMAScript
   * ES6
   * DOM
@@ -52,6 +53,7 @@
   * AJAX和本地存储
   * Jquery
   * 优化
+
 * 前端框架
   * VUE
   * React
