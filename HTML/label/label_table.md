@@ -31,6 +31,7 @@
 
 * colspan：Number，跨越的列数，即该单元格占据的列数
 * rowspan：Number，跨越的行数，即该单据格占据的行数
+* padding设置有效
 
 ### td -- 表体的单元格
 
