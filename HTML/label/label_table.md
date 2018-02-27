@@ -21,7 +21,7 @@
         </tr>
     </tbody>
 
-    <!--页脚,不可设置margin,padding-->
+    <!--tfoot页脚,不可设置margin,padding-->
     <tfoot> </tfoot>
 </table>
 ```
