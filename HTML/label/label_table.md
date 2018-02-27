@@ -7,7 +7,7 @@
     <!--caption可以设置margin和padding-->
     <caption>表格的标题</caption>
 
-    <!--表头，不可设置margin,padding-->
+    <!--thead表头，不可设置margin,padding-->
     <thead>
         <tr>
             <th></th>
