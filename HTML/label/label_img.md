@@ -47,7 +47,10 @@
   * default：整体
 
 ```
-<img src="xxx.jpg" alt="xxx">
+<img src="xxx.jpg" alt="xxx" usemap="#mymap">
+<map name="mymap">
+    <area shape="react" coords="10,10,50,50"></area>
+</map>
 ```
 
 
