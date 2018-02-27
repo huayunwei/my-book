@@ -17,7 +17,7 @@
 
 ### figcaption -- figure的标题
 
-```
+```markdown
 <figure>
     <img src="xx.jpg" alt="" />
     <figcaption>
