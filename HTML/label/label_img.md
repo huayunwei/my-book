@@ -34,8 +34,10 @@
 
 * alt：文本
 * coords：定义点击区域的坐标
-  * 
+  * shape为圆形：x，y，r（圆心坐标x,y，半径r）
+  * shape为多边形：x1，y1，x2，y2...（多边形每个顶点的坐标）
 * href：此区域的链接地址
+
 * shape：此区域的形状
   * circ/circle：圆形
   * poly/polygon：多边形
