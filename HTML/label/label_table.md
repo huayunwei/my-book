@@ -4,6 +4,7 @@
 
 ```markdown
 <table>
+    <!--caption可以设置margin和padding-->
     <caption>表格的标题</caption>
     <thead>
         <!--表头-->
