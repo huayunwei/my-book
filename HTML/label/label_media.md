@@ -18,7 +18,7 @@
 * .swf/.flv：flash格式，需要额外的组件来播放
 * .mp4：Mpeg-4格式
 
-## 标签
+## 媒体标签
 
 * embed：用来定义嵌入内容，比如flash插件
 
@@ -49,6 +49,16 @@
 
 * audio：音频，IE8-不支持
 
+* source：为video和audio提供媒介资源
+
+  * media：媒体资源的类型
+
+  * src：媒体文件的URL
+
+  * type：媒体资源的MIME类型
+
+* track：允许指定计时字幕
+
 ```markdown
 //音频
 <audio>
@@ -64,6 +74,16 @@
     </object>
 </video>
 ```
+
+## video和audio的属性，方法，事件
+
+### 属性
+
+### 方法
+
+### 事件
+
+
 
 
 
