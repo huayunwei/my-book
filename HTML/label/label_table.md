@@ -16,7 +16,6 @@
 
     <!--表体,不可设置margin,padding-->
     <tbody>
-
         <tr>
             <td></td>
         </tr>
