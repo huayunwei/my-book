@@ -13,7 +13,7 @@
 * size：设置图片的尺寸临界点
 * crossorigin：跨域
 
-### figure
+### figure -- 用来插入图片和figcaption配合使用
 
 ### figcaption
 
