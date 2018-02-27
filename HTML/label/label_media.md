@@ -92,5 +92,14 @@
 
 ### 事件
 
+* loadstart：浏览器开始寻找指定的音频或视频
+* progress：浏览器正在下载指定的音频或视频
+* durationchange：音频或视频的时长已改变
+* loadedmetadata：音频或视频的元数据已加载
+* loadeddata：音频或视频的当前帧已加载，但没有足够数据播放下一帧
+* canplay：浏览器能够开始播放指定的音频或视频
+* canplaythrough：音频或视频能够不停顿地一直播放
+* progress：浏览器正在下载指定的音频或视频
+
 
 
