@@ -57,6 +57,12 @@
 </audio>
 
 //视频
+<video>
+    <source src="1.mp4" type="video/mp4" />
+    <object data="1.mp4" width="" height="">
+        <embed src="1.mp4" width="" height="" />
+    </object>
+</video>
 ```
 
 
