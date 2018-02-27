@@ -4,6 +4,7 @@
 
 ```markdown
 <table>
+    <!--必须在table标签之后，并且只能定义一个-->
     <caption>表格的标题</caption>
     <thead>
         <!--表头-->
