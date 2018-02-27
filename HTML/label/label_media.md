@@ -21,12 +21,14 @@
 ## 标签
 
 * embed：用来定义嵌入内容，比如flash插件
+
   * height：嵌入内容的高度
   * width：嵌入内容的宽度
   * src：嵌入内容的URL
   * type：嵌入内容的类型
 
 * object：定义一个嵌入的对象
+
   * height：嵌入对象高度
   * width：嵌入对象的宽度
   * type：嵌入对象的类型
@@ -35,6 +37,12 @@
   * usemap：设置与对象一同使用的客户端图像映射的URL
   * form：规定对象所属的一个或多个表单
   * typemustmatch：检测资源类型和type属性是否相符
+
+* param：给内嵌的插件传递参数
+  * name：定义参数的名称
+  * value：规定参数的值
+  * type：规定参数的MIME类型
+  * valuetype：规定值的MIME类型
 
 
 
