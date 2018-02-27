@@ -17,6 +17,15 @@
 
 ### figcaption -- figure的标题
 
+```
+<figure>
+    <img src="xx.jpg" alt="" />
+    <figcaption>
+        xxxx
+    </figcaption>
+</figure>
+```
+
 ## 热点
 
 ### map
