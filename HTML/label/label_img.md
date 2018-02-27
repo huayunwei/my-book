@@ -47,7 +47,7 @@
   * default：整体
 
 ```
-
+<img src="xxx.jpg" alt="xxx">
 ```
 
 
