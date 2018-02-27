@@ -17,7 +17,8 @@
 ```
 
 * 下载地址
-  * 文本文件：.txt，.js，.html，.css
+  * 文本文件：.txt，.js，.html，.css直接显示
+  * 媒体文件：.mp3，.mp4直接播放
 
 ```
 <a href="1.zip">下载</a>
