@@ -49,7 +49,7 @@
 ```
 <img src="xxx.jpg" alt="xxx" usemap="#mymap">
 <map name="mymap">
-    <area shape="react" coords="10,10,50,50" href="1.html"></area>
+    <area shape="react" coords="10,10,50,50" href="1.html" alt="xxx"></area>
 </map>
 ```
 
