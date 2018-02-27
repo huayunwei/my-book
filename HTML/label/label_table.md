@@ -14,7 +14,7 @@
         </tr>
     </thead>
 
-    <!--表体,不可设置margin,padding-->
+    <!--tbody表体,不可设置margin,padding-->
     <tbody>
         <tr>
             <td></td>
