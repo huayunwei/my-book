@@ -14,7 +14,9 @@
 
   * image
 
-  * password：密码框，和text外观一样，但是输入的内容不可见，通过将input的type属性修改为text可以达到密码可见的效果
+  * password：密码框，和text外观一样，但是输入的内容不可见
+
+    * 通过将input的type属性修改为text可以达到密码可见的效果
 
   * radio
 
