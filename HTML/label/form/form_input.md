@@ -14,6 +14,20 @@
 
 * maxlength：输入字段的最长长度，以字符个数计算，只能和type=text,password配合
 
+* src：只和type=image配合，图片提交按钮的图片地址
+
+* value：input元素设定值
+
+* autocomplete：开启或关闭自动完成功能，默认为on
+
+* autofocus：加载时自动获得焦点
+
+* multiple：使用type=file，可以选择多个值
+
+* pattern：验证input
+
+* placeholder：提供占位符文字，在输入为空时显示
+
 * type：规定input元素的类型\(图片为chrome下的显示\)
 
   * button：按钮，value属性的值为按钮上显示的文字，类似[button标签](/HTML/label/form/form_button.md)
