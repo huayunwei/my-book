@@ -2,6 +2,18 @@
 
 * name：input元素的名称，用于对提交到服务器后的表单数据进行标识
 
+* accept：只和type=file配合使用，规定上传的文件类型
+
+* alt：只和type=image配合使用，设置图片的描述
+
+* checked：只和type=radio,checkbox配合使用，规定默认选中
+
+* disabled：无法和type=hidden配合使用，禁用input元素
+
+* readonly：输入字段为只读，不能修改
+
+* maxlength：输入字段的最长长度，以字符个数计算，只能和type=text,password配合
+
 * type：规定input元素的类型\(图片为chrome下的显示\)
 
   * button：按钮，value属性的值为按钮上显示的文字，类似[button标签](/HTML/label/form/form_button.md)
