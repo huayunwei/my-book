@@ -7,7 +7,7 @@
 * name：规定表单的名称
 * accept-charset：字符集，规定服务器处理表单数据所接受的字符集，默认为unknown
 * autocomplete
-* enctype
+* enctype：发送到服务器之前应该如何对表单数据进行编码
 * novalidate
 * target：打开action所写URL的方式
 * action：提交表单时，提交的地址，如果忽略会重定向到锁单所在的URL
