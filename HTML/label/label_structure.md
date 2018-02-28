@@ -49,13 +49,18 @@
             </ul>
         </nav>
         <article>
-            <section></section>
+            <section>
+                <div><div>
+            </section>
         </article>
         <aside>
             <ul>
                 <li></li>
             </ul>
         </aside>
+        <footer>
+            <nav></nav>
+        </footer>
     </body>
 </html>
 ```
