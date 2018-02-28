@@ -24,7 +24,7 @@
 
 ### br -- 换行
 
-### sup -- 上标
+### sup -- 上标，vertical-align:sub，小字体
 
 ### sub
 
