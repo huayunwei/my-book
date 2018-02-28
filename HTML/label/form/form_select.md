@@ -1,6 +1,6 @@
 ## Select -- 下拉列表
 
-```
+```markdown
 <select>
     <option></option>
 </select>
