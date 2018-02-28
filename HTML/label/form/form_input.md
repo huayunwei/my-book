@@ -4,7 +4,7 @@
 
 * type：规定input元素的类型
 
-  * button：按钮，name属性为按钮上显示的文字
+  * button：按钮，value属性的值为按钮上显示的文字
 
   * checkbox：多选按钮，同一组按钮name必须一致
 
