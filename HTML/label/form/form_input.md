@@ -50,7 +50,7 @@
 
   * email：样式和text一样，会自动渐染email域的值，手机端会唤出英文键盘
 
-  * month
+  * month：选取年、月
 
   ![](/assets/label_input_month.png)
 
