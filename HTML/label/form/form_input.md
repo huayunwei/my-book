@@ -86,6 +86,11 @@
   ![](/assets/label_input_month.png)
 
   * number：数字，手机端会唤出数字键盘
+    * 下面属性只对点击右侧按钮改变数字时有效，直接在输入框可以输入任何数字
+    * max：允许的最大值
+    * min：允许的最小值
+    * step：每次点击时增加的数字
+    * value：默认值
 
   ![](/assets/label_input_number.png)
 
