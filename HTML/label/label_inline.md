@@ -24,9 +24,9 @@
 
 ### br -- 换行
 
-### sup -- 上标，vertical-align:sub，小字体
+### sup -- 上标，vertical-align:super，小字体
 
-### sub
+### sub -- 下标，vertical-align：sub，小字体
 
 ### ins
 
