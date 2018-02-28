@@ -4,8 +4,8 @@
 
 ### Form元素
 
-* name
-* accept-charset
+* name：规定表单的名称
+* accept-charset：字符集，规定服务器处理表单数据所接受的字符集
 * autocomplete
 * enctype
 * novalidate
