@@ -18,6 +18,8 @@
 
     ![](/assets/label_input_file_next.png)
 
+    * 支持accept和multiple属性
+
   * hidden：隐藏不可见，但是数据仍然可以被提交
 
   * image：图片型提交按钮，src属性为图片地址，默认alt值为提交
