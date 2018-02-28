@@ -95,6 +95,10 @@
   ![](/assets/label_input_number.png)
 
   * range：一定范围内的数字
+    * max：允许的最大值，默认为100
+    * min：允许的最小值，默认为0
+    * step：每次移动的间隔
+    * value：默认值
 
   ![](/assets/label_input_range.png)
 
