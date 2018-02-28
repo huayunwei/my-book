@@ -32,6 +32,10 @@
 
 ### del -- 文档中删除的内容，中划线\(chrome下\)
 
+* ins和del的属性
+  * datetime：编辑的日期
+  * cite：编辑的文档网址
+
 ### time
 
 ### ruby
