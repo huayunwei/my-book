@@ -28,6 +28,20 @@
 
 * placeholder：提供占位符文字，在输入为空时显示
 
+* required：在提交之前必须填写，不能为空
+
+* form：规定非form标签内的元素，输入那个form表单
+
+* formaction：重写表单的action属性
+
+* formenctype：重写enctype属性
+
+* formmethod：重写method属性
+
+* formnovalidate：重写novalidate属性
+
+* formtarget：重写target属性
+
 * type：规定input元素的类型\(图片为chrome下的显示\)
 
   * button：按钮，value属性的值为按钮上显示的文字，类似[button标签](/HTML/label/form/form_button.md)
