@@ -8,7 +8,11 @@
 
   * checkbox：多选按钮，同一组按钮name必须一致
 
-    * 支持check属性，代表默认选中
+    * 支持checked属性，代表默认选中
+
+    ```markdown
+    <input type="checkbox" checked />
+    ```
 
   * file：用于文件的上传
 
