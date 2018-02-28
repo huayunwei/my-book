@@ -10,7 +10,7 @@
 * enctype
 * novalidate
 * target
-* action
+* action：提交表单时，提交的地址，如果忽略会重定向到锁单所在的URL
 * method
 
 ### 其他表单控件
