@@ -27,9 +27,32 @@
 
 ### footer
 
-* 最近一个章节内容或根节点元素的页脚
+* 根节点元素的页脚
 
 ### main
+
+* 主体部分
+
+
+
+### 基本结构
+
+```markdown
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav>
+    </body>
+</html>
+```
 
 
 
