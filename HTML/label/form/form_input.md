@@ -68,7 +68,9 @@
 
   * tel：电脑端和text样式一样，在手机端会唤出数字键盘
 
-  * time
+  * time：选取时、分
+
+  ![](/assets/label_input_time.png)
 
   * url：样式和text一样，会自动验证url的值
 
