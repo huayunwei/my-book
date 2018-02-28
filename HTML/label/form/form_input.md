@@ -36,15 +36,19 @@
 
   * text：单行输入字段，可以输入文本
 
-  * color
+  * color：创建调色板
 
-  * date
+  ![](/assets/label_input_color.png)
+
+  * date：
+
+  ![](/assets/label_input_date.png)
 
   * datetime
 
   * datetime-local
 
-  * email
+  * email：样式和text一样，会自动渐染email域的值，手机端会唤出英文键盘
 
   * month
 
@@ -52,13 +56,15 @@
 
   * range
 
-  * search
+  * search：搜索框
 
-  * tel
+  ![](/assets/label_input_search.png)
+
+  * tel：电脑端和text样式一样，在手机端会唤出数字键盘
 
   * time
 
-  * url
+  * url：样式和text一样，会自动验证url的值
 
   * week
 
