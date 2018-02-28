@@ -28,9 +28,9 @@
 
 ### sub -- 下标，vertical-align：sub，小字体
 
-### ins
+### ins -- 文档中插入的内容，下划线\(chrome下\)
 
-### del
+### del -- 文档中删除的内容，中划线\(chrome下\)
 
 ### time
 
