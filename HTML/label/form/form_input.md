@@ -30,7 +30,7 @@
 
   * radio：单选按钮，同一组按钮name必须一致
 
-  * reset
+  * reset：创建重置表单的按钮，value默认为重置
 
   * submit：提交表单的按钮，value默认为提交
 
