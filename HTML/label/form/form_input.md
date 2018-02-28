@@ -47,6 +47,12 @@
 
   * radio：单选按钮，同一组按钮name必须一致
 
+    * 支持checked属性，默认选中，同一组按钮，都设置checked，最后一个被选中
+
+    ```markdown
+    <input type="radio" checked/>
+    ```
+
   * reset：创建重置表单的按钮，value默认为重置
 
   * submit：提交表单的按钮，value默认为提交
