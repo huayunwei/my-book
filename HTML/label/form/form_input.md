@@ -75,13 +75,19 @@
 
   * datetime：样式和text一样
 
+    * value格式：YYYY-MM-DDThh：mm：ss：sZ\(Z：时区\)
+
   * datetime-local：选取年、月、日、时、分
+
+    * value格式：YYYY-MM-DDThh：mm：ss：s\(.1秒\)
 
   ![](/assets/label_input_datetime_local.png)
 
   * email：样式和text一样，会自动渐染email域的值，手机端会唤出英文键盘
 
   * month：选取年、月
+
+    * value格式：YYYY-MM
 
   ![](/assets/label_input_month.png)
 
@@ -110,11 +116,15 @@
 
   * time：选取时、分
 
+    * value格式：hh：mm：ss.s
+
   ![](/assets/label_input_time.png)
 
   * url：样式和text一样，会自动验证url的值
 
   * week：选取年、今年第几周
+
+    * value格式：YYYY-W\(周数，从1到52\)
 
   ![](/assets/label_input_week.png)
 
