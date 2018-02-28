@@ -36,7 +36,7 @@
   * datetime：编辑的日期
   * cite：编辑的文档网址
 
-### time
+### time -- 日期或时间
 
 ### ruby
 
