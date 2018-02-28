@@ -32,7 +32,7 @@
 
   * reset
 
-  * submit
+  * submit：提交表单的按钮，按钮value默认为提交
 
   * text：单行输入字段，可以输入文本
 
