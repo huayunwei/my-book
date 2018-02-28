@@ -33,8 +33,6 @@
 
 * 主体部分
 
-
-
 ### 基本结构
 
 ```markdown
@@ -50,6 +48,14 @@
                 <li></li>
             </ul>
         </nav>
+        <article>
+            <section></section>
+        </article>
+        <aside>
+            <ul>
+                <li></li>
+            </ul>
+        </aside>
     </body>
 </html>
 ```
