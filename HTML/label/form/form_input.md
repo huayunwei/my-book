@@ -6,7 +6,7 @@
 
   * button
 
-  * chekbox
+  * checkbox
 
   * file
 
@@ -22,7 +22,9 @@
 
   * submit
 
-  * text
+  * text：单行输入字段，可以输入文本
+
+  ![](/assets/label_input_text.png)
 
   * color
 
@@ -49,8 +51,6 @@
   * url
 
   * week
-
-
 
 
 
