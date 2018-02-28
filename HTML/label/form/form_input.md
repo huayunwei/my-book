@@ -14,7 +14,7 @@
 
   * image
 
-  * password
+  * password：密码框，和text外观一样，但是输入的内容不可见
 
   * radio
 
