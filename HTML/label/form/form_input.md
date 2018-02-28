@@ -24,6 +24,9 @@
     //accept属性，默认上传时选择的为全部类型的文件
     //accept中指定默认上传的类型，用逗号分割，在用户选择上传时可以手动修改类型上传，不会报错
     <input type="file" accept="image/gif,image/jpeg,image/jpg"></input>
+
+    //multiple属性，默认上传时只能选择一个文件，添加后可以选择多个文件一起上传
+    <input type="file" multiple>
     ```
 
   * hidden：隐藏不可见，但是数据仍然可以被提交
