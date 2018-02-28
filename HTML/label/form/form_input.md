@@ -2,7 +2,7 @@
 
 * name：input元素的名称，用于对提交到服务器后的表单数据进行标识
 
-* type：规定input元素的类型
+* type：规定input元素的类型\(图片为chrome下的显示\)
 
   * button：按钮，value属性的值为按钮上显示的文字
 
@@ -40,7 +40,7 @@
 
   ![](/assets/label_input_color.png)
 
-  * date：
+  * date：选取日，月，年
 
   ![](/assets/label_input_date.png)
 
@@ -52,9 +52,15 @@
 
   * month
 
-  * number
+  ![](/assets/label_input_month.png)
 
-  * range
+  * number：数字，手机端会唤出数字键盘
+
+  ![](/assets/label_input_number.png)
+
+  * range：一定范围内的数字
+
+  ![](/assets/label_input_range.png)
 
   * search：搜索框，输入后比text多一个x，点击后会删除所有输入的内容
 
