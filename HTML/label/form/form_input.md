@@ -18,6 +18,8 @@
 
     * 通过将input的type属性修改为text可以达到密码可见的效果
 
+    ![](/assets/label_input_password.png)
+
   * radio
 
   * reset
