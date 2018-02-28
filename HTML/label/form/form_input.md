@@ -4,5 +4,53 @@
 
 * type：规定input元素的类型
 
+  * button
+
+  * chekbox
+
+  * file
+
+  * hidden
+
+  * image
+
+  * password
+
+  * radio
+
+  * reset
+
+  * submit
+
+  * text
+
+  * color
+
+  * date
+
+  * datetime
+
+  * datetime-local
+
+  * email
+
+  * month
+
+  * number
+
+  * range
+
+  * search
+
+  * tel
+
+  * time
+
+  * url
+
+  * week
+
+
+
 
 
