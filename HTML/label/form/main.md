@@ -8,6 +8,9 @@
 * accept-charset：字符集，规定服务器处理表单数据所接受的字符集，默认为unknown
 * autocomplete
 * enctype：发送到服务器之前应该如何对表单数据进行编码
+  * application/x-www-form-urlencoded：默认编码所有字符
+  * multipart/form-data：不对字符编码
+  * text/plain：空格转换为+，但不对特殊字符编码
 * novalidate
 * target：打开action所写URL的方式
 * action：提交表单时，提交的地址，如果忽略会重定向到锁单所在的URL
