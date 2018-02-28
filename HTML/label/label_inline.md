@@ -24,9 +24,9 @@
 
 ### br -- 换行
 
-### sup -- 上标，vertical-align:super，小字体
+### sup -- 上标\(vertical-align：super\)，小字体
 
-### sub -- 下标，vertical-align：sub，小字体
+### sub -- 下标\(vertical-align：sub\)，小字体
 
 ### ins -- 文档中插入的内容，下划线\(chrome下\)
 
