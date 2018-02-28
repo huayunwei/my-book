@@ -20,6 +20,12 @@
 
     * 支持accept和multiple属性
 
+    ```markdown
+    //accept属性，默认上传时选择的为全部类型的文件
+    <input type="file" accept="image/gif,image/jpeg,image/jpg"></input>
+
+    ```
+
   * hidden：隐藏不可见，但是数据仍然可以被提交
 
   * image：图片型提交按钮，src属性为图片地址，默认alt值为提交
