@@ -72,7 +72,9 @@
 
   * url：样式和text一样，会自动验证url的值
 
-  * week
+  * week：选取年、今年第几周
+
+  ![](/assets/label_input_week.png)
 
 
 
