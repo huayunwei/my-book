@@ -41,9 +41,7 @@
 * datetime：确切的时间，遵循YYYY-MM-DDThh:mm:ssTZD
 * pubdate：表示time的日期为文档的发布日期
 
-### code -- 代码，font-family为monospace
+### code -- 代码，font-family为monospace\(chrome下\)
 
 ;
-
-
 
