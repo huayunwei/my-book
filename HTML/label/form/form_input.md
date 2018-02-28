@@ -26,7 +26,7 @@
     <input type="file" accept="image/gif,image/jpeg,image/jpg"></input>
 
     //multiple属性，默认上传时只能选择一个文件，添加后可以选择多个文件一起上传
-    <input type="file" multiple>
+    <input type="file" multiple />
     ```
 
   * hidden：隐藏不可见，但是数据仍然可以被提交
