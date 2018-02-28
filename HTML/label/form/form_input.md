@@ -56,7 +56,7 @@
 
   * range
 
-  * search：搜索框
+  * search：搜索框，输入后比text多一个x，点击后会删除所有输入的内容
 
   ![](/assets/label_input_search.png)
 
