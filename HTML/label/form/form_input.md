@@ -4,7 +4,7 @@
 
 * type：规定input元素的类型\(图片为chrome下的显示\)
 
-  * button：按钮，value属性的值为按钮上显示的文字
+  * button：按钮，value属性的值为按钮上显示的文字，类似[button标签](/HTML/label/form/form_button.md)
 
   * checkbox：多选按钮，同一组按钮name必须一致
 
@@ -37,7 +37,13 @@
 
   * hidden：隐藏不可见，但是数据仍然可以被提交
 
-  * image：图片型提交按钮，src属性为图片地址，默认alt值为提交
+  * image：图片型提交按钮
+
+    * src属性：图片地址
+
+    * alt：图片描述，默认为提交
+
+    * width，height：图片宽高
 
   * password：密码框，和text外观一样，但是输入的内容不可见
 
