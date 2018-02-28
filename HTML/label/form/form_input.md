@@ -8,7 +8,15 @@
 
   * checkbox
 
-  * file
+  * file：用于文件的上传
+
+    * 上传文件前
+
+    ![](/assets/label_input_file_prev.png)
+
+    * 上传文件后
+
+    ![](/assets/label_input_file_next.png)
 
   * hidden
 
