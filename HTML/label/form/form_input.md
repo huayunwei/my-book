@@ -44,9 +44,11 @@
 
   ![](/assets/label_input_date.png)
 
-  * datetime
+  * datetime：样式和text一样
 
-  * datetime-local
+  * datetime-local：选取年、月、日、时、分
+
+  ![](/assets/label_input_datetime_local.png)
 
   * email：样式和text一样，会自动渐染email域的值，手机端会唤出英文键盘
 
