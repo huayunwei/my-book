@@ -6,7 +6,7 @@
 
   * button
 
-  * checkbox
+  * checkbox：多选按钮，同一组按钮name必须一致
 
   * file：用于文件的上传
 
@@ -18,7 +18,7 @@
 
     ![](/assets/label_input_file_next.png)
 
-  * hidden
+  * hidden：隐藏不可见，但是数据仍然可以被提交
 
   * image
 
@@ -28,15 +28,13 @@
 
     ![](/assets/label_input_password.png)
 
-  * radio
+  * radio：单选按钮，同一组按钮name必须一致
 
   * reset
 
   * submit
 
   * text：单行输入字段，可以输入文本
-
-  ![](/assets/label_input_text.png)
 
   * color
 
