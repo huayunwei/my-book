@@ -18,7 +18,7 @@
 
 ### 其他表单控件
 
-#### input
+#### [input](/HTML/label/form/form_input.md)
 
 #### menus
 
