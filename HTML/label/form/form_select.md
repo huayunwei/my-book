@@ -25,11 +25,13 @@
   * label：定义当使用optgroup时所使用的标注，替代option元素内容
   * selected：首次显示在列表中时表现为选中状态
   * value：定义送往服务器的选项值，提交时默认为value的值，否则提交option元素的内容
+  * 无法设置margin、padding、border等盒模型样式
 
 * optgroup：
 
   * label：为选项组规定描述
   * disabled：禁用该选项组
+  * 无法设置margin、padding、border等盒模型样式
 
 
 
