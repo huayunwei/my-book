@@ -29,6 +29,12 @@
 ### 为什么HTML5和HTML4的声明不同
 
 * DTD：文档类型定义
+* SGML：标准通用标记语言，是一种定义电子文档结构和描述其内容的国际标准语言
+* doctype：标准通用标记语言的文档类型声明
 
+HTML4基于SGML，需要引用DTD
 
+HTML5不基于SGML，是结合SGML,HTML,XHTML1.X语法形成的有自己规则的合成语言
+
+HTML5需要doctype来启用浏览器的标准渲染模式
 
