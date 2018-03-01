@@ -55,10 +55,12 @@
   * 优化
 
 * 前端框架
+
   * VUE
   * React
     * react
     * react-native
+
 * 后端
   * NodeJS
   * Express
@@ -73,6 +75,10 @@
     * SVN
   * 构建工具
     * webpack
+
+  * 其他
+
+    * 创建字体图标
 * 项目
 
 
