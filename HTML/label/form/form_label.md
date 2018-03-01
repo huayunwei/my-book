@@ -9,5 +9,14 @@
 * for：规定label绑定到哪个表单元素（需要与表单元素的id相同）
 * form：规定label字段所属的一个或多个表单
 
+```markdown
+//写法1：使用for
+<label for="q1">q1</label>
+<input type="radio" id="q1"/>
+
+//写法2：不适用for，嵌套
+<label>q1<input type="radio"/></label>
+```
+
 
 
