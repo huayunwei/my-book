@@ -3,7 +3,7 @@
 * [介绍](README.md)
 * HTML
 
-  * [基础](ji-chu.md)
+  * 基础
 
     * [实体](/HTML/base/base_entity.md)
     * [全局属性](/HTML/base/base_attr.md)
@@ -69,7 +69,9 @@
   * Linux
 
 * 网络
+
   * HTTP
+
 * 工具
 
   * 版本管理
