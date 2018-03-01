@@ -19,9 +19,7 @@
 
 ![](/assets/tools_others_font2.png)
 
+* 编辑下载字体的配置，点击下载按钮下载字体
 
-
-
-
-
+![](/assets/tools_others_font3.png)
 
