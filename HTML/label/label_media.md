@@ -129,8 +129,6 @@
 
 * createObjectURL：[https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL)
 
-* revokeObjectURL
-
 * 具体代码
 
   * 单个文件
@@ -143,7 +141,6 @@
 
   //如果元数据加载成功，则可以获取音频的元数据信息
   audio.onloadedmetadata=function(){
-      window.URL.revokeObjectURL(this.src)
       duration = audio.duration;
   };
 
