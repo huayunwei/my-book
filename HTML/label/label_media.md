@@ -130,11 +130,19 @@
 * createObjectURL
 
 * revokeObjectURL
+
 * 具体代码
 
 ```markdown
-//只
+//只加载音频信息的元数据
 audio.preload="metadata";
+
+//如果元数据加载成功，则可以获取音频的元数据信息
+audio.onloadedmetadata=function(){
+    window.URL.revokeObjectURL(this.src)
+    duration = audio.duration;
+};
+
 //使用input，type="file"上传文件
 input.on('change',function(){
     //file为上传的文件的文件信息，file为File对象
@@ -143,8 +151,6 @@ input.on('change',function(){
     audio.src = URL.createObjectURL(file);
 })
 ```
-
-
 
 
 
