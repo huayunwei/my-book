@@ -116,7 +116,19 @@
 * volumechange：音量改变时触发
 * waiting：需要缓冲下一帧而停止时触发
 
-### 手机端的媒体文件
+### 手机端的媒体文件：不能用中文的文件名！无法识别
+
+### 获取上传的媒体文件的元数据信息
+
+```markdown
+//使用input，type="file"上传文件
+input.on('change',function(){
+    //file为上传的文件的文件信息，file为File对象
+    file = this.files[0];
+    //设置audio的文件地址，用于获取audio的总时长
+    audio.src = URL.createObjectURL(file);
+})
+```
 
 
 
