@@ -20,7 +20,7 @@ console.log(++i);//11 ==> var i = i + 1; console.log(i)
 console.log(i);//11
 ```
 
-* --递减：
+* --递减：同上，只是自减
 
 ### 优先级
 
