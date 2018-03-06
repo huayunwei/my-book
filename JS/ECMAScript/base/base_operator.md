@@ -8,10 +8,11 @@
   * 非数值，会调用Number\(\)进行转换，将得到的数值转换为负数
 * ++递增：
 
-```
-//++i和i++
+```markdown
+//i++：先用i的当前值执行语句，然后i进行自加操作
 var i = 10;
 console.log(i++);//10 ==> console.log(i); var i = i + 1;
+console.log(i);//1
 ```
 
 * --递减：
