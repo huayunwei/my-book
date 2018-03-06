@@ -79,6 +79,11 @@
 
 ### 属性
 
+* preload：设置或返回是否在页面加载后立即加载音频/视频
+  * auto：一旦页面加载，则开始加载音频/视频
+  * metadata：当页面加载后仅加载音频/视频的元数据
+  * none：页面加载后不应加载音频/视频
+
 ### 方法
 
 * canplayType\(\)：检测浏览器是否能播放指定音频或视频
@@ -120,9 +125,16 @@
 
 ### 获取上传的媒体文件的元数据信息
 
-利用：createObjectURL和revokeObjectURL
+* 利用：createObjectURL和revokeObjectURL
+
+* createObjectURL
+
+* revokeObjectURL
+* 具体代码
 
 ```markdown
+//只
+audio.preload="metadata";
 //使用input，type="file"上传文件
 input.on('change',function(){
     //file为上传的文件的文件信息，file为File对象
@@ -131,6 +143,8 @@ input.on('change',function(){
     audio.src = URL.createObjectURL(file);
 })
 ```
+
+
 
 
 
