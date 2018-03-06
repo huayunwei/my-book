@@ -120,12 +120,14 @@
 
 ### 获取上传的媒体文件的元数据信息
 
+利用：createObjectURL和revokeObjectURL
+
 ```markdown
 //使用input，type="file"上传文件
 input.on('change',function(){
     //file为上传的文件的文件信息，file为File对象
     file = this.files[0];
-    //设置audio的文件地址，用于获取audio的总时长
+    //设置audio的文件地址
     audio.src = URL.createObjectURL(file);
 })
 ```
