@@ -127,7 +127,7 @@
 
 * 利用：createObjectURL和revokeObjectURL
 
-* createObjectURL
+* createObjectURL：https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL
 
 * revokeObjectURL
 
