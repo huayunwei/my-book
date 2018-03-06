@@ -134,6 +134,8 @@
 * 具体代码
 
 ```markdown
+//兼容性？
+window.URL = window.URL || window.webkitURL;
 //只加载音频信息的元数据
 audio.preload="metadata";
 
