@@ -13,6 +13,11 @@
 var i = 10;
 console.log(i++);//10 ==> console.log(i); var i = i + 1;
 console.log(i);//1
+
+//++i：先对i进行自加，然后再执行当前语句
+var i = 10;
+console.log(++i);//11 ==> var i = i + 1; console.log(i)
+console.log(i);//11
 ```
 
 * --递减：
