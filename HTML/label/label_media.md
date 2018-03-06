@@ -127,32 +127,40 @@
 
 * 利用：createObjectURL和revokeObjectURL
 
-* createObjectURL：https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL
+* createObjectURL：[https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL)
 
 * revokeObjectURL
 
 * 具体代码
 
-```markdown
-//兼容性？
-window.URL = window.URL || window.webkitURL;
-//只加载音频信息的元数据
-audio.preload="metadata";
+  * 单个文件
 
-//如果元数据加载成功，则可以获取音频的元数据信息
-audio.onloadedmetadata=function(){
-    window.URL.revokeObjectURL(this.src)
-    duration = audio.duration;
-};
+  ```markdown
+  //兼容性？
+  window.URL = window.URL || window.webkitURL;
+  //只加载音频信息的元数据
+  audio.preload="metadata";
 
-//使用input，type="file"上传文件
-input.on('change',function(){
-    //file为上传的文件的文件信息，file为File对象
-    file = this.files[0];
-    //设置audio的文件地址
-    audio.src = URL.createObjectURL(file);
-})
-```
+  //如果元数据加载成功，则可以获取音频的元数据信息
+  audio.onloadedmetadata=function(){
+      window.URL.revokeObjectURL(this.src)
+      duration = audio.duration;
+  };
+
+  //使用input，type="file"上传文件
+  input.on('change',function(){
+      //file为上传的文件的文件信息，file为File对象
+      file = this.files[0];
+      //设置audio的文件地址
+      audio.src = URL.createObjectURL(file);
+  })
+  ```
+
+  * 
+
+
+
+
 
 
 
