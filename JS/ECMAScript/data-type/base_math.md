@@ -59,6 +59,9 @@ Math.floor(Math.randow()*(最大值-最小值+1)+最小值);
 
 //数组中随机的一项
 Math.floor(Math.random()*arr.length)
+
+//随机的0,1值
+Math.round(Math.random());
 ```
 
 
