@@ -36,7 +36,7 @@ Math.min()：参数中最小值，没有参数返回infinity，如果任意一�
 var maxValue = Math.max.apply(Math,arr);
 var minValue = Math.min.apply(Math,arr);
 
-2.合法的月份值
+2.合法的月份值,1-12之间
 Math.min(Math.max(1,input),12);
 ```
 
