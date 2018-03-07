@@ -127,7 +127,7 @@ Number对象：使用new Number\(\)构造函数构建出的
     * 不传参或参数为undefined，则保留尽可能多的有效数字
     * 参数为0，表示没有小数部分
   * isFinite：确定数值是否有穷，如果是正无穷或负无穷或NaN，则返回false，否则返回true
-  * 
+  * toPrecision：数值的所有数字的位数，自动调用toFixed或toExponential方法
 
 * 常见问题
 
