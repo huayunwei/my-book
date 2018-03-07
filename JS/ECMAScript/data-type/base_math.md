@@ -82,5 +82,14 @@ Math.atan(x)：反正切
 Math.atan2(y,x)：返回y/x的反正切值
 ```
 
+### 乘方开方
+
+```
+Math.exp(num)：e的num次幂
+Math.log(num)：返回num的自然对数
+Math.sqrt(num)：返回num的平方根
+Math.pow(num,power)：返回num的power次幂
+```
+
 
 
