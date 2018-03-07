@@ -36,5 +36,23 @@ Number对象：使用new Number\(\)构造函数构建出的
   * 小于1且小数后有6个以上的浮点数值
   * 整数位数多于21位
 
+### NaN：非数字
+
+* 与任何值都不相等，包括自己
+* 所有涉及NaN的操作都返回NaN
+* 判断是否为NaN
+  * isNaN：因为内部是调用Number所以像无法转换成数字的字符串也会返回true
+  * 是否等于自身：只有NaN是不等于自身的
+
+  ```
+  function myIsNaN(val){
+      return val !== val;
+  }
+  ```
+
+### 方法
+
+* isFinite：确定数值是否有穷，如果是正无穷或负无穷或NaN，则返回false，否则返回true
+
 
 
