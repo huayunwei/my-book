@@ -40,5 +40,19 @@ var minValue = Math.min.apply(Math,arr);
 Math.min(Math.max(1,input),12);
 ```
 
+### 舍入
+
+```
+Math.ceil()：向上取整运算
+Math.floor()：向下取整
+Math.round()：四舍五入
+```
+
+### 随机数
+
+```
+Math.random()：返回大于或等于0小于1的一个随机数
+```
+
 
 
