@@ -18,7 +18,12 @@
 
 ## null
 
-* Null类型
+* 表示一个空对象指针
+* 类型判断
+  * Object.prototype.toString.call\(\)
+  * typeof判断为object的原因：
+    > 不同对象在底层都表示为二进制，在js中二进制前三位都为0会被判断为object类型，null的二进制表示全为0，所以执行typeof时返回object
+* 类型转换
 
 ## 关联
 
