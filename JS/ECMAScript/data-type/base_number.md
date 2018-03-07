@@ -63,7 +63,12 @@ Number对象：使用new Number\(\)构造函数构建出的
 
 ### 方法
 
-* isFinite：确定数值是否有穷，如果是正无穷或负无穷或NaN，则返回false，否则返回true
+* 转为数值
+* 其他
+
+  * isFinite：确定数值是否有穷，如果是正无穷或负无穷或NaN，则返回false，否则返回true
+
+
 
 
 
