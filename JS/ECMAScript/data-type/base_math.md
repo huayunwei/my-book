@@ -55,7 +55,7 @@ Math.random()：返回大于或等于0小于1的一个随机数
 
 //获取某个整数范围内随机的一个值
 Math.floor(Math.random()*总+第一个值);
-Math.floor(Math.randow()*(最大值-最小值-1)+最小值);
+Math.floor(Math.randow()*(最大值-最小值+1)+最小值);
 ```
 
 
