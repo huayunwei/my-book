@@ -64,5 +64,23 @@ Math.floor(Math.random()*arr.length)
 Math.round(Math.random());
 ```
 
+### 绝对值
+
+```
+Math.abs();
+```
+
+### 三角函数
+
+```
+Math.sin(x)：正弦，返回值在1到-1之间
+Math.cos(x)：余弦，返回值在-1到1之间
+Math.tan(x)：正切，x为弧度，弧度 = 角度*(2π/360)
+Math.asin(x)：反正弦
+Math.acos(x)：反余弦
+Math.atan(x)：反正切
+Math.atan2(y,x)：返回y/x的反正切值
+```
+
 
 
