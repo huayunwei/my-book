@@ -33,7 +33,8 @@
 ## 关联
 
 * 都没有属性和方法
-* null == undefined ==&gt; true null===undefined ==&gt;false
+* null == undefined ==&gt; true 
+* null === undefined ==&gt;false
 * 都表示值的空缺，null表示空值，undefined表示未定义
 
 
