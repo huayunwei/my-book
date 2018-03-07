@@ -10,8 +10,8 @@ Number对象：使用new Number\(\)构造函数构建出的
 * 最小值Number.MIN\_VALUE ：2^-1023
 * 最大整数Number.MAX\_SAFE\_INTEGER ：2^53
 * 最小整数 Number.MIN\_SAFE\_INTEGER ：-2^53
-* 超过最大值：Infinity
-* 小于最小值：无限接近于0，则转为0
+* 正无穷 Number.POSITIVE\_INFINITY ：Infinity\( Infinity 参与的运算结果只能是其本身，0，NaN\)
+* 负无穷 Number.NEGATIVE\_INFINITY ： -Infinity
 
 ### 浮点数问题：
 
