@@ -125,7 +125,7 @@
 
 ### 获取上传的媒体文件的元数据信息 -- 应该是仅用于现代浏览器的
 
-* 利用：createObjectURL和revokeObjectURL
+* 利用：createObjectURL
 
 * createObjectURL：[https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL)
 
@@ -154,8 +154,6 @@
   ```
 
   * 多个文件
-
-
 
 
 
