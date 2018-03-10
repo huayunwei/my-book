@@ -10,7 +10,5 @@ rename：异步
 fs.rename(oldPath,newPath,callback);
 ```
 
-
-
-
+https://nodejs.org/api/fs.html\#fs\_fs\_unlinksync\_path
 
