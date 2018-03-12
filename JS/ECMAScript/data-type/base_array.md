@@ -25,17 +25,20 @@
 * ### 属性
 
   * length：长度，不能为赋值，范围从0到2^32-2
-
 * ### 数组乱序
 
   * sort方法
 
-  ```
+  ```markdown
   //sort方法传一个函数，随机返回1或-1
   array.sort(function(){return Math.random() - 0.5})
   ```
 
   * 遍历
+
+  ```markdown
+
+  ```
 
 
 
