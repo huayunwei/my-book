@@ -99,6 +99,8 @@
 
   * str.indexOf（searchStr,start）：从start开始查找searchStr首次出现的位置，没有找到返回-1
 
+    * start为undefined、NaN、负数时，start为0
+
   * str.lastIndexOf：
 
 
