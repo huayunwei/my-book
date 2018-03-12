@@ -71,9 +71,15 @@
 
     * end为NaN（undefined不包括，为undefined时参考第一点）时，返回空字符串
 
-  * substr
+  * str.substr\(start,end\)：
 
-  * substring
+  * substring\(start,end\)：同slice
+
+    * 如果start,end是NaN或负数，则转换为0
+
+    * 如果start，end大于字符串长度，则转换为字符串长度
+
+    * 如果start大于end，则交换值
 
 
 
