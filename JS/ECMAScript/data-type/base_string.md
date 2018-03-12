@@ -132,6 +132,17 @@
 * ### 去除首尾空格
 
   * str.trim\(\)：将字符串副本的首尾的字符删除，然后返回副本
+  * replace：
+
+  ```
+  function myTrim(){
+      return str.replace(/^\s+|\s+$/,'');
+  }
+  ```
+
+* ### 字符串比较
+
+  * localeCompare
 
 
 
