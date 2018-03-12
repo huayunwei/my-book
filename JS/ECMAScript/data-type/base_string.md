@@ -67,6 +67,10 @@
 
     * end可以为负，为负时end = str.length + end，如果仍然为负，则为0，即end = max\(str.length + end,0\)
 
+    * start为NaN时，start = 0
+
+    * end为NaN（undefined不包括，为undefined时参考第一点）时，返回空字符串
+
   * substr
 
   * substring
