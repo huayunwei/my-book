@@ -43,6 +43,8 @@
     * num大于字符串长度，返回undefined
     * num为NaN，返回undefined
   * charCodeAt\(num\)：返回num位置字符的Unicode编码
+    * num为空或NaN，num为0
+    * num大于字符串长度，返回NaN
 
 
 
