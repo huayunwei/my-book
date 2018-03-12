@@ -71,15 +71,35 @@
 
     * end为NaN（undefined不包括，为undefined时参考第一点）时，返回空字符串
 
-  * str.substr\(start,end\)：
+  * str.substr\(start,length\)：返回从start开始length长度的字符串
+
+    * start为负，则start = max（length + start ，0）
+
+    * start是NaN，则start = 0
+
+    * end是负或NaN，则end = 0 ，返回空字符串
 
   * substring\(start,end\)：同slice
 
-    * 如果start,end是NaN或负数，则转换为0
+    * start,end是NaN或负数，则转换为0
 
-    * 如果start，end大于字符串长度，则转换为字符串长度
+    * start，end大于字符串长度，则转换为字符串长度
 
-    * 如果start大于end，则交换值他们的值
+    * start大于end，则交换值他们的值
+* ### 大小写转换
+
+  * str.toUpperCase：转为大写
+
+  * str.toLowerCase：转为小写
+
+  * str.toLocaleUpperCase：转为地区大写
+
+  * str.toLocaleLowerCase：转为地区小写
+* ### 子字符串位置
+
+  * str.indexOf（searchStr,start）：从start开始查找searchStr首次出现的位置，没有找到返回-1
+
+  * str.lastIndexOf：
 
 
 
