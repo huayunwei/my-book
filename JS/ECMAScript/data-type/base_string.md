@@ -101,7 +101,34 @@
 
     * start为undefined、NaN、负数时，start为0
 
-  * str.lastIndexOf：
+  * str.lastIndexOf（searchStr,start）：从右向左查找
+
+    * start为undefined、NaN时，start为length - 1
+
+    * start为负，start = 0
+* ### 正则匹配
+
+  * str.match（reg）：接受字符串或正则，返回数组
+
+  * str.search（reg）：接受字符串或正则，返回首次出现的位置，没有返回-1
+
+    * 忽略全局标志g
+
+    * 总是从0开始查找
+
+  * str.replace\(reg,fn\)：替换一个或多个字符串
+
+    * 参数1是正则表达式或字符串，想要被替换的字符串
+
+    * 参数2为字符串或函数，替换成的字符串
+
+    * 默认只替换第一个字符串，使用全局标志可以替换所有匹配的
+
+  * str.split（reg，num）：将字符串根据指定的分隔符分割成多个字符串，保存在数组中
+
+    * 参数1，可以是字符串或正则，代表分隔符
+
+    * 参数2，表示返回的数组的长度，值如果大于最多的分割数，则返回全部的值
 
 
 
