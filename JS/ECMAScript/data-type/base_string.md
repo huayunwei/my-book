@@ -35,6 +35,14 @@
   * toString：返回字符串本身
   * toLocaleString：返回字符串本身
   * valueOf：返回字符串本身
+* 访问字符的方法
+  * charAt\(num\)：接受num位置，返回该位置的字符
+    * num为空或NaN时，num为0
+    * num大于字符串长度，则返回空字符串
+  * \[num\]：返回num位置的字符
+    * num大于字符串长度，返回undefined
+    * num为NaN，返回undefined
+  * charCodeAt\(num\)：返回num位置字符的Unicode编码
 
 
 
