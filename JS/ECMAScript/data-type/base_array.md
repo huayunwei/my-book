@@ -41,6 +41,7 @@
   for(let i=0;i<arr.length;i++){
       var randomIndex = Math.floor(Math.random()*arr.length);
       [arr[i],arr[randomIndex]] = [arr[randomIndex],arr[i]];
+      //或arr[i] ^= arr[randomIndex]; arr[randomIndex] ^= arr[i]; arr[i] ^= arr[randomIndex]
   }
   ```
 
