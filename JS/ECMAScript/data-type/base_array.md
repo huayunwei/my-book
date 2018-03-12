@@ -37,7 +37,11 @@
   * 遍历
 
   ```markdown
-
+  //遍历数组，遍历到的值和随机位置的元素交换位置
+  for(let i=0;i<arr.length;i++){
+      var randomIndex = Math.floor(Math.random()*arr.length);
+      [arr[i],arr[randomIndex]] = [arr[randomIndex],arr[i]];
+  }
   ```
 
 
