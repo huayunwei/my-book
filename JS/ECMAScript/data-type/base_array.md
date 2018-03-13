@@ -44,10 +44,15 @@
       //或arr[i] ^= arr[randomIndex]; arr[randomIndex] ^= arr[i]; arr[i] ^= arr[randomIndex]
   }
   ```
-
 * ### 数组方法
 
   * #### 对象继承方法
+
+    * toString：返回数组中每个值用逗号拼接而成的字符串
+
+    * toLocaleString：返回本地化版本，一般情况和toString相同
+
+    * valueOf：返回数组对象本身
   * #### 转换方法
   * #### 栈和队列方法
   * #### 排序方法
