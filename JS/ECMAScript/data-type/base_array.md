@@ -48,9 +48,9 @@
 
   * #### 对象继承方法
 
-    * toString：返回数组中每个值用逗号拼接而成的字符串
+    * toString：返回数组中每个值用逗号拼接而成的字符串，对于null和undefined返回空字符串
 
-    * toLocaleString：返回本地化版本，一般情况和toString相同
+    * toLocaleString：返回本地化版本，一般情况和toString相同，对于null和undefined返回空字符串
 
     * valueOf：返回数组对象本身
   * #### 转换方法
