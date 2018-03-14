@@ -96,7 +96,7 @@ Array.prototype.sum = function(){
             return prev;
         }
     }
-*/
+
 ```
 
 * ### reduceRight
