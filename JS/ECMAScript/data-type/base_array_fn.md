@@ -53,21 +53,21 @@ Array.prototype.allIndexOf = function(search,start){
     @return:sum - 和
 */
 Array.prototype.sum = function(){
-    
+
     let sum = 0;
 
     //1.for循环
-    
+
     for(let i=0,length=this.length;i<length;i++){
         sum +=this[i]; 
     }
-    
-    
-    //reduce
+
+
+    //2.reduce
     num = this.reduce(function(prev,next){
         return prev + next;
     },0);
- 
+
     return sum;   
 }
 ```
