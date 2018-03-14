@@ -261,19 +261,19 @@ Array.prototype.noRepeat = function(fn,context){
     @return: result - 复制后的结果
 */
 Array.prototype.copy = function(){
-    
+
     let result = [];
-    
+
     //1.for + push
     for(var i=0;i<this.length;i++){
         result.push(this[i]);
     }
     return result;
-    
+
     //2.concat
     result = this.concat();
     return result;
-    
+
     //3.slice
     result = this.slice();
     return result;
