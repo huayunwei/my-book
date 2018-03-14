@@ -5,7 +5,7 @@
 ```markdown
 if(Array.prototype.indexOf !== 'function'){
     /*
-        返回查找到的第一个位置的下标
+        查找第一个匹配的数组项的下标
         @param:search - 要超找的值
         @param:start - 开始查找的位置
         @return:index - 下标
@@ -21,10 +21,20 @@ if(Array.prototype.indexOf !== 'function'){
         }
         return index;
     }
-} 
+}
 ```
 
 * ### allIndexOf
+
+```
+/*
+    查找所有匹配的数组的下标
+*/
+Array.prototype.allIndexOf = function(){
+    
+}
+```
+
 * ### sum
 * ### reduce
 * ### reduceRight
