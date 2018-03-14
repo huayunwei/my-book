@@ -101,6 +101,16 @@
 
       * end为undefined时，代表截取到末尾
   * #### 位置方法
+
+    * indexOf\(search,start\)：从start开始找，返回第一次出现的位置，没有找打返回-1
+
+      * 进行严格相等比较的，即===
+
+      * start转化为NaN时，start = 0
+
+      * start可以为负
+
+    * lastIndexOf\(\)：同上，只是反向查找
   * #### 删改方法
 
     * splice：
