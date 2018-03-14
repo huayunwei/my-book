@@ -47,7 +47,7 @@ Array.prototype.allIndexOf = function(search,start){
 
 * ### sum
 
-```
+```markdown
 /*
     求和
     @return:sum - 和
@@ -73,6 +73,23 @@ Array.prototype.sum = function(){
 ```
 
 * ### reduce
+
+```
+/*
+    对数组元素进行组合，生成单个值
+    @param：callback - 执行函数
+    @param: initialValue - 初始值
+    @return: con - 返回值
+*/
+    if(typeof Array.prototype.reduce !== 'function'){
+        
+        Array.prototype.reduce = function(callback,initialValue ){
+            
+        }
+    }
+*/
+```
+
 * ### reduceRight
 * ### map
 * ### forEach
