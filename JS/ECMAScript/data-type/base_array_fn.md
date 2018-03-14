@@ -13,5 +13,7 @@
 * ### noRepeat
 * ### inArray
 
+* ### copy
+
 
 
