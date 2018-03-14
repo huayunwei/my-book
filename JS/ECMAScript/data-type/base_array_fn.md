@@ -183,7 +183,7 @@ if(typeof Array.prototype.filter !== 'function'){
 
 * ### some
 
-```
+```markdown
 /*
     只要有一个符合，就返回true
     @param：fn - 执行函数
