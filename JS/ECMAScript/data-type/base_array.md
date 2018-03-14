@@ -136,7 +136,7 @@
 
       * 参数2：初始值
 
-    * reduceRight
+    * reduceRight：同上，反向
   * #### 迭代方法
 
 
