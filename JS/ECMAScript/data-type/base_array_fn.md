@@ -82,9 +82,17 @@ Array.prototype.sum = function(){
     @return: con - 返回值
 */
     if(typeof Array.prototype.reduce !== 'function'){
-        
+
         Array.prototype.reduce = function(callback,initialValue ){
-            
+            let prev = initialValue , k = 0 , length = this.length;
+            if(prev === 'undefined'){
+                prev = this[0];
+                k = 1;
+            }
+            for(k;k<length;k++){
+                //传回reduce中函数的四个参数即返回值，当前值，当前下标，数组
+                prev = callback.call(prev,this.[k],k,this);
+            }
         }
     }
 */
