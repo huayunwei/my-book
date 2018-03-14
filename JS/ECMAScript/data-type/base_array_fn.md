@@ -232,6 +232,23 @@ if(typeof Array.prototype.array!== 'function'){
 ```
 
 * ### noRepeat
+
+```markdown
+/*
+    数组去重
+    @return arr - 去重后的数组
+*/
+Array.prototype.noRepeat = function(fn,context){
+    let arr = [];
+    for(let i=0;i<this.length;i++){
+        if(arr.indexOf(this[i]) == -1){
+             arr.push(i);   
+        }
+    }
+    return result;
+}
+```
+
 * ### inArray
 * ### copy
 
