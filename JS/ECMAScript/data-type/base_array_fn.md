@@ -34,7 +34,14 @@ if(Array.prototype.indexOf !== 'function'){
     @return:index - 匹配的下标集合
 */
 Array.prototype.allIndexOf = function(search,start){
-    
+    let index = [];
+    start = start * 1 || 0;
+    for(let i=start,length = this.length;i<length;i++){
+        if(this[i] === search){
+            index.push(i);
+        }
+    }
+    return index;
 }
 ```
 
