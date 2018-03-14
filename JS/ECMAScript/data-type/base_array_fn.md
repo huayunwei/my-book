@@ -100,7 +100,7 @@ Array.prototype.sum = function(){
 
 * ### reduceRight
 
-```
+```markdown
 if(typeof Array.prototype.reduceRight !== 'function'){
     Array.prototype.reduceRight = function(callback,initialValue){
         let prev = initialValue , length = this.length , i = length - 1;
@@ -111,7 +111,7 @@ if(typeof Array.prototype.reduceRight !== 'function'){
         for(i;i>0;i--){
             prev = callback.call(prev,this[i],i,this);
         }
-        
+
         return prev;
     }
 }
