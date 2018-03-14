@@ -74,7 +74,7 @@ Array.prototype.sum = function(){
 
 * ### reduce
 
-```
+```markdown
 /*
     对数组元素进行组合，生成单个值
     @param：callback - 执行函数
