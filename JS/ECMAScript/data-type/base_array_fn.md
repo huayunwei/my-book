@@ -207,6 +207,30 @@ if(typeof Array.prototype.some !== 'function'){
 ```
 
 * ### every
+
+```markdown
+/*
+    全部符合，就返回true
+    @param：fn - 执行函数
+    @param：context - 上下文
+    @return: flag - 布尔值，是否有符合的项
+*/
+if(typeof Array.prototype.some !== 'function'){
+    Array.prototype.some = function(fn,context){
+        let flag = true;
+        if(typeof fn === 'function'){
+            for(let i=0,length = this.length;i<length;i++){
+                if(!fn.call(context,this[i],i,this)){
+                    flag = false;
+                    break;
+                }
+            }
+        }
+        return flag;
+    }
+}
+```
+
 * ### noRepeat
 * ### inArray
 * ### copy
