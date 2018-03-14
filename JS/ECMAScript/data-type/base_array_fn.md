@@ -28,10 +28,10 @@ if(Array.prototype.indexOf !== 'function'){
 
 ```
 /*
-    查找所有匹配的数组的下标
+    查找所有匹配的数组项的下标
 */
 Array.prototype.allIndexOf = function(){
-    
+
 }
 ```
 
