@@ -89,7 +89,17 @@
       * 参数为数组，只展开第一层，然后将每一项push到数组的末尾
   * #### 截取方法
 
-    * #### slice
+    * slice\(start,end\)：截取从start到end（不包含end）
+
+      * start，end可以为负，为负时为0和length+该值的最大值
+
+      * 不给参数，浅复制数组
+
+      * start转为NaN时，start为0
+
+      * end转为NaN，除undefined外，输出空数组
+
+      * end为undefined时，代表截取到末尾
   * #### 位置方法
   * #### 归并方法
   * #### 迭代方法

@@ -36,7 +36,7 @@
     * Sass
     * Less
 * JS
-  * ECMAScript
+  * [ECMAScript](ecmascript.md)
   * ES6
   * DOM
   * BOM
@@ -66,6 +66,4 @@
   * 其他
     * [创建字体图标](/tools/others/tools_font_img.md)
 * 项目
-
-
 
