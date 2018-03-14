@@ -104,7 +104,7 @@ Array.prototype.sum = function(){
 if(typeof Array.prototype.reduceRight !== 'function'){
     Array.prototype.reduceRight = function(callback,initialValue){
         let prev = initialValue , length = this.length , i = length - 1;
-        if(typeOf prev == 'undefined'){
+        if(typeof prev == 'undefined'){
             prev = this[i];
             i = i - 1;
         }
