@@ -215,8 +215,8 @@ if(typeof Array.prototype.some !== 'function'){
     @param：context - 上下文
     @return: flag - 布尔值，是否有符合的项
 */
-if(typeof Array.prototype.some !== 'function'){
-    Array.prototype.some = function(fn,context){
+if(typeof Array.prototype.array!== 'function'){
+    Array.prototype.array = function(fn,context){
         let flag = true;
         if(typeof fn === 'function'){
             for(let i=0,length = this.length;i<length;i++){
