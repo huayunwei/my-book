@@ -26,7 +26,7 @@ if(Array.prototype.indexOf !== 'function'){
 
 * ### allIndexOf
 
-```
+```markdown
 /*
     查找所有匹配的数组项的下标
     @param:search - 要超找的值
