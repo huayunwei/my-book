@@ -158,6 +158,29 @@ if(typeof Array.prototype.forEach !== 'function'){
 ```
 
 * ### filter
+
+```markdown
+/*
+    过滤
+    @param:fn - 执行函数
+    @param:context - 上下文
+    @return:arr - 过滤后的数组
+*/
+if(typeof Array.prototype.filter !== 'function'){
+    Array.prototype.filter = function(fn，context){
+        let arr = [];
+        if(typeof fn === 'function'){
+            for(let i=0,length = this.length;i<length;i++){
+                if(fn.call(context,this[i],i,this)){
+                    arr.push(this[i])
+                }
+            }
+        }
+        return arr;
+    }
+}
+```
+
 * ### some
 * ### every
 * ### noRepeat
