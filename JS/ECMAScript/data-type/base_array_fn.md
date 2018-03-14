@@ -46,6 +46,32 @@ Array.prototype.allIndexOf = function(search,start){
 ```
 
 * ### sum
+
+```
+/*
+    求和
+    @return:sum - 和
+*/
+Array.prototype.sum = function(){
+    
+    let sum = 0;
+
+    //1.for循环
+    
+    for(let i=0,length=this.length;i<length;i++){
+        sum +=this[i]; 
+    }
+    
+    
+    //reduce
+    num = this.reduce(function(prev,next){
+        return prev + next;
+    },0);
+ 
+    return sum;   
+}
+```
+
 * ### reduce
 * ### reduceRight
 * ### map
