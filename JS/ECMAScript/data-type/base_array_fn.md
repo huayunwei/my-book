@@ -7,7 +7,7 @@ if(Array.prototype.indexOf !== 'function'){
     /*
         查找第一个匹配的数组项的下标
         @param:search - 要超找的值
-        @param:start - 开始查找的位置
+        @param:start - 从此处开始超找
         @return:index - 下标
     */
     Array.prototype.indexOf = function(search,start){
@@ -29,9 +29,12 @@ if(Array.prototype.indexOf !== 'function'){
 ```
 /*
     查找所有匹配的数组项的下标
+    @param:search - 要超找的值
+    @param:start - 从此处开始查找
+    @return:index - 匹配的下标集合
 */
-Array.prototype.allIndexOf = function(){
-
+Array.prototype.allIndexOf = function(search,start){
+    
 }
 ```
 
