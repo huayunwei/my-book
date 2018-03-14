@@ -140,6 +140,23 @@ if(typeof Array.prototype.map !== 'function'){
 ```
 
 * ### forEach
+
+```markdown
+/*    对数组中每一项执行函数
+    @param:fn - 执行函数
+    @param:context - 上下文环境
+*/
+if(typeof Array.prototype.forEach !== 'function'){
+    Array.prototype.forEach = function(fn,context){
+        if(typeof fn === 'function'){
+            for(let i=0,length = this.length;i<length;i++){
+                fn.call(context,this[i],i,this);
+            }
+        }
+    }
+}
+```
+
 * ### filter
 * ### some
 * ### every
