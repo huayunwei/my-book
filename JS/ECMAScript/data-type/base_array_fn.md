@@ -85,9 +85,9 @@ Array.prototype.sum = function(){
 
         Array.prototype.reduce = function(callback,initialValue ){
             let prev = initialValue , k = 0 , length = this.length;
-            if(prev === 'undefined'){
+            if(typeOf prev === 'undefined'){
                 prev = this[0];
-                k = 1;
+                k = 1;//注：没有初始值的时候，k是从1开始的
             }
             for(k;k<length;k++){
                 //传回reduce中函数的四个参数即返回值，当前值，当前下标，数组
