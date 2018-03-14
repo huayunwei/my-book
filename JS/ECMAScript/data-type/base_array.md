@@ -137,6 +137,19 @@
       * 参数2：初始值
 
     * reduceRight：同上，反向
+
+    * 应用
+
+    ```
+    //求和
+    arr.reduce(function(pre,next){return prev + next},0)
+
+    //乘积
+    arr.reduce(function(pre,next){return prev * next },1)
+
+    //最大值
+    arr.reduce(fucntion(pre,next){return prev > next ? prev : next})
+    ```
   * #### 迭代方法
 
 
