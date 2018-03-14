@@ -91,7 +91,7 @@ Array.prototype.sum = function(){
             }
             for(i;i<length;i++){
                 //传回reduce中函数的四个参数即返回值，当前值，当前下标，数组
-                prev = callback.call(prev,this.[i],i,this);
+                prev = callback(prev,this.[i],i,this);
             }
             return prev;
         }
@@ -109,7 +109,7 @@ if(typeof Array.prototype.reduceRight !== 'function'){
             i = i - 1;
         }
         for(i;i>-1;i--){
-            prev = callback.call(prev,this[i],i,this);
+            prev = callback(prev,this[i],i,this);
         }
 
         return prev;
