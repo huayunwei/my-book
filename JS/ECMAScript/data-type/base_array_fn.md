@@ -108,7 +108,7 @@ if(typeof Array.prototype.reduceRight !== 'function'){
             prev = this[i];
             i = i - 1;
         }
-        for(i;i>0;i--){
+        for(i;i>-1;i--){
             prev = callback.call(prev,this[i],i,this);
         }
 
