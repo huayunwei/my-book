@@ -93,6 +93,7 @@ Array.prototype.sum = function(){
                 //传回reduce中函数的四个参数即返回值，当前值，当前下标，数组
                 prev = callback.call(prev,this.[k],k,this);
             }
+            return prev;
         }
     }
 */
