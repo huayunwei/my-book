@@ -118,6 +118,27 @@ if(typeof Array.prototype.reduceRight !== 'function'){
 ```
 
 * ### map
+
+```markdown
+/*
+    对数组中每一项执行函数，返回执行后的结果组成的函数
+    @param:fn - 执行函数
+    @param:context - 上下文环境
+    @return:arr - 结果数组
+*/
+
+if(typeof Array.prototype.map !== 'function'){
+    Array.prototype.map = function(fn,context){
+        let arr = [];
+        if(typeof fn === 'function'){
+            for(let i=0,length = this.length;i<length;i++){
+                arr.push(fn.call(context,this[i],i,this));
+            }
+        } 
+    }
+}
+```
+
 * ### forEach
 * ### filter
 * ### some
