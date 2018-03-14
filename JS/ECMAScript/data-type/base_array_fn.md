@@ -64,7 +64,7 @@ Array.prototype.sum = function(){
 
 
     //2.reduce
-    num = this.reduce(function(prev,next){
+    sum = this.reduce(function(prev,next){
         return prev + next;
     },0);
 
