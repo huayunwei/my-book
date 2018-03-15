@@ -8,7 +8,6 @@
   * \(number\).toString：返回数值的字符串形式
 
   * \(number\).toString\(2/8/10/12/16\)：参数为进制，返回number对应进制的字符串形式
-
 * ### function类型
 
   * ### 自定义函数：返回函数源码
