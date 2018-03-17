@@ -71,6 +71,8 @@
 
       * 参数2-..：参数，传入给fn函数的参数
 
+  * toString：返回函数代码的字符串
+
   * bind：IE8-不支持
 
     * 作用：将函数绑定到某个对象
@@ -95,9 +97,11 @@
       var sum = function(x,y){
           return x+y;
       }
-      var succ = sum.bind(null,1);//其中形参x被绑定为1,
-      succ(2);//此时给y传入2这个值
+      var succ = sum.bind(null,1);//其中形参x被绑定为1
+      succ(2);//此时给y传入2这个值    
       ```
+
+
 
 
 
