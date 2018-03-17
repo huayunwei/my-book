@@ -196,7 +196,48 @@
   }
   ```
 
-  * 
+  * 方法：
+
+    * 1.在函数被调用时，再处理函数 -- 函数名改变时需要全部修改
+
+    ```
+    function addEvent(type,element,fnc){
+        if(element.addEventListener){
+            addEvent = function(type,element,fnc){
+                element.addEventListener(type,fnc,false);
+            }
+        }else if(element.attachEvent){
+            addEvent = function(type,element,fnc){
+                element.attachEvent('on'+type,fnc);
+            }
+        }else{
+            addEvent = function(type,element,fnc){
+                element['on'+type] = fnc;
+            }
+        }
+        return addEvent(type,element,fnc)
+    }
+    ```
+
+    * 2.在声明时就执行适当的函数
+
+    ```
+    var addEvent = (function(){
+        if(document.addEventListenter){
+            return function(type,element,fnc){
+                element.addEventListener(type,fnc,false)
+            }
+        }else if(document.attachEvent){
+            return function(type,element,fnc){
+                element.attachEvent('on'+type,fnc);
+            }
+        }else{
+            return function(type,element,fnc){
+                element['on'+type] = fnc;
+            }
+        }
+    })()
+    ```
 
 
 
