@@ -87,7 +87,17 @@
 
     * 函数柯里化
 
-      * 
+      * bind对于参数2-...也会绑定为函数的形参，且不会被改变
+
+      * 例：
+
+      ```
+      var sum = function(x,y){
+          return x+y;
+      }
+      var succ = sum.bind(null,1);
+      succ(2);
+      ```
 
 
 
