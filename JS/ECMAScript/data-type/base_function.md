@@ -71,7 +71,9 @@
 
       * 参数2-..：参数，传入给fn函数的参数
 
-  * toString：返回函数代码的字符串
+  * toString，toLocalString：返回函数代码的字符串
+
+  * valueOf：返回函数本身
 
   * bind：IE8-不支持
 
@@ -98,10 +100,8 @@
           return x+y;
       }
       var succ = sum.bind(null,1);//其中形参x被绑定为1
-      succ(2);//此时给y传入2这个值    
+      succ(2);//此时给y传入2这个值
       ```
-
-
 
 
 
