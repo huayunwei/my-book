@@ -64,6 +64,7 @@
 
     ![](/assets/label_input_file_next.png)
 
+    * 获取file
     * 上传文件进度
 
     ```
