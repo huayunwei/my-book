@@ -12,16 +12,28 @@
   function funcname(){}
   ```
 
+  * Function构造函数
+
+    * 参数1到n-1都是函数的参数
+
+    * 第n个参数作为函数的函数体
+
+  ```
+  var funcname = new Function(参数，函数体)
+  ```
+
   * 函数定义表达式
 
-    * name属性：紧跟在function后面的标识符，没有则为空
+    * name属性：紧跟在function后面的标识符，没有则为空，IE11-无效，为undefined
 
   ```
   var funcname = function(){}
 
   //fun只能在内部使用，而外部的调用需要使用funcname
-  var funcname = function fun(){} 
+  var funcname = function fun(){}
   ```
+
+
 
 
 
