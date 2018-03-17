@@ -91,11 +91,13 @@
 * ## ES6的函数
 
   * 参数默认值
+
     * 函数.length：返回没有指定默认值的参数个数，不包括...reset参数
 
     ```
     function fn(x=3){console.log(x)};//3
     ```
+
   * reset参数：即...变量名，用于获取全部传入的 参数，保存在变量名中
   * 箭头函数：
     * 形式
@@ -104,7 +106,40 @@
   fn()=>{}
   ```
 
+* ## 高阶函数
 
+  * 定义：
+
+    * 操作函数的函数：函数作为参数被传递或函数作为返回值输出
+
+  * 函数柯里化
+* 函数节流（throttle）和函数防抖（debounce）
+
+  * 函数防抖：将被执行的函数使用setTimeout延迟一段时间执行
+
+    * 1.只要当前函数没有执行完，任何新出发的函数都不会忽略
+
+    ```
+    function debounce(method,context){
+        if(method.tId){
+            return false;//不执行新函数
+        }
+        method.tId = setTimeout(()=>{
+            method.call(context);
+        },1000);
+    }
+    ```
+
+    * 2.只要有新出发的函数，立即停止执行当前函数
+
+    ```
+    function debounce(method,context){
+        clearTimeout(method.tId);
+        method.tId = setTimeout(()=>{
+            method.call(contxt);
+        },1000);
+    }
+    ```
 
 
 
