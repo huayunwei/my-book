@@ -36,7 +36,7 @@
 
   var obj = Object.create(null);//因为null没有原型，所以obj是没有任何方法的
 
-  var obj = Object.create(Object.prototype)
+  var obj = Object.create(Object.prototype);//空对象{}
   ```
 * ### 对象属性
 * ### 对象方法
