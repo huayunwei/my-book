@@ -33,7 +33,17 @@
   var funcname = function fun(){}
   ```
 
+* ### 参数
 
+  * arguments：保存所有传入的参数
+    * arguments.length：传入参数的个数
+    * arguments.callee：指向拥有该arguments对象的函数，严格模式下会报错
+    * arguments.caller：始终为undefined
+  * 参数传递
+    * 基本类型值：将值赋值给一个局部变量，该局部变量的名字和参数名一致
+* ## 内部属性
+
+  * caller：保存调用当前函数的函数的引用，全局调用时，返回null，严格模式下报错
 
 
 
