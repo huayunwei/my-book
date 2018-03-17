@@ -95,8 +95,8 @@
       var sum = function(x,y){
           return x+y;
       }
-      var succ = sum.bind(null,1);
-      succ(2);
+      var succ = sum.bind(null,1);//其中形参x被绑定为1,
+      succ(2);//此时给y传入2这个值
       ```
 
 
