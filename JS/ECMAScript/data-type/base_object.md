@@ -40,7 +40,27 @@
   var obj = Object.create(Object.prototype);//空对象{}
   ```
 * ### 对象属性
+
+  * 属性的获取
+
+    * for-in
+
+    * Object.keys：返回所有可枚举的自有属性
+
+    * Object.getOwnPrototypeNames\(\)：返回所有自有属性
+
+  * 属性存在判断
+
+    * in：判断属性是否在对象上，即使是继承的也会为true
+
+    * hasOwnPrototype：判断属性是自有属性还是继承属性
 * ### 对象方法
+
+  * valueOf：返回当前对象
+
+  * toString：返回当前对象对应的字符串形式
+
+  * toLocaleString：同toString
 
 
 
