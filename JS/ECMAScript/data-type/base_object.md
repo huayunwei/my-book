@@ -30,6 +30,7 @@
   ```
 
   * Object.create：本质将参数设置为原型
+    * 参数：对象的属性描述
 
   ```
   var obj = Object.create({a:1});
