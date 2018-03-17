@@ -41,6 +41,8 @@
   ```
 * ### 对象属性
 
+  * 属性描述符：https://www.xiaohuochai.site/JS/ECMA/types/objectPropertyDescriptor.html
+
   * 属性的获取
 
     * for-in
