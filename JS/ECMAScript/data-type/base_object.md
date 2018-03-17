@@ -1,6 +1,6 @@
 ## 对象
 
-* ### 对象定义 
+* ### 对象定义
 
   * 一个复合值
 
@@ -22,11 +22,24 @@
 
   * 字面量
 
-  * Object.create
+  ```
+  var obj = {
+      a:1,
+      b:2
+  }
+  ```
+
+  * Object.create：本质将参数设置为原型
+
+  ```
+  var obj = Object.create({a:1});
+
+  var obj = Object.create(null);//因为null没有原型，所以obj是没有任何方法的
+
+  var obj = Object.create(Object.prototype)
+  ```
 * ### 对象属性
 * ### 对象方法
-
-
 
 
 
