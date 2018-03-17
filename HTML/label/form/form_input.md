@@ -64,6 +64,12 @@
 
     ![](/assets/label_input_file_next.png)
 
+    * 上传文件进度
+
+    ```
+    http://blog.csdn.net/qq_36687640/article/details/78551217
+    ```
+
     * 支持accept和multiple属性
 
     ```markdown
