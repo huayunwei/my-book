@@ -67,7 +67,17 @@
 
   * 浅拷贝：只赋值一层对象属性，复制后的对象指向同一地址块
 
-  * 深拷贝：复制多层属性，且不会
+    * for..in
+
+    * getOwnPrototypeNames
+
+  * 深拷贝：复制多层属性
+
+    * json
+
+    ```
+    JSON.parse(JSON.stringify(obj));
+    ```
 
 
 
