@@ -49,7 +49,7 @@
     var obj = {foo:foo};
     var obj1 = {a:1};
 
-    (obj1.foo = obj.foo)();
+    (obj1.foo = obj.foo)();//这个时指向window的！
     ```
 
     * 其他情况
