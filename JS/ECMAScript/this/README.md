@@ -36,17 +36,28 @@
     * 内置函数
 
     ```
-    function foo(console.log(foo));
+    function foo(){console.log(foo)};
     var obj = {foo:foo}
 
     setTimeout(obj.foo,100);//window
     ```
 
     * 间接引用
+
+    ```
+    function foo(){console.log(this.a);}
+    var obj = {foo:foo};
+    var obj1 = {a:1};
+
+    (obj1.foo = obj.foo)();
+    ```
+
     * 其他情况
 
 * 间接调用
+
   * 使用call，apply，bind
+
 * new 调用
 
 
