@@ -52,8 +52,6 @@
     (obj1.foo = obj.foo)();//这个时指向window的！
     ```
 
-    * 其他情况
-
 * 间接调用
 
   * 使用call，apply，bind
