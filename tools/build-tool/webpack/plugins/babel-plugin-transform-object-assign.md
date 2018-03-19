@@ -35,5 +35,3 @@ npm install --save-dev babel-plugin-transform-object-assign
 
 
 
-
-
