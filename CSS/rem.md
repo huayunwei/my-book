@@ -28,6 +28,27 @@ em：相对于父元素的字体大小的单位
 
   * .sass文件
 
+    * 首先设置一个常量：$root = 10px;
+
+    * 设置html的font-size值：html{font-size:$root}
+
+    * 使用@function：
+
+      ```
+      @function pxToRem($px){
+          @return $px / $root * 1rem;
+      }
+
+      p{
+          width:pxToRem(100px);//会自动转换
+      }
+      //缺点：对于padding:10px 10px;
+      padding:pxToRem(10px 10px);//报错
+      padding:pxToRem(10px) pxToRem(10px);
+      ```
+
+    * 使用@min
+
   * .less文件
 * ### 实现手机端响应式布局的方法
 
