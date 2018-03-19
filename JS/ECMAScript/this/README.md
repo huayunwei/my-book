@@ -5,8 +5,10 @@
   * 全局下的this
   * 闭包
 * 指向直接对象，即紧邻着方法的对象
-  * 以方法来调用
+
+  * 以方法来调用，使用方法直接调用时，即后面接（）时，才会指向对象，如果不执行就不一定了
   * 容易出现的问题
+
     * 函数别名：将函数赋给其他变量
 
     ```
@@ -20,9 +22,29 @@
     ```
 
     * 参数传递
+
+    ```
+    function foo(){console.log(this);}
+    var obj = {foo:foo}
+
+    function bar(fn){
+        fn();
+    }
+    bar(obj.foo);//window
+    ```
+
     * 内置函数
+
+    ```
+    function foo(console.log(foo));
+    var obj = {foo:foo}
+
+    setTimeout(obj.foo,100);//window
+    ```
+
     * 间接引用
     * 其他情况
+
 * 间接调用
   * 使用call，apply，bind
 * new 调用
