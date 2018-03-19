@@ -55,8 +55,15 @@
 * 间接调用
 
   * 使用call，apply，bind
+  * map，filter，some，every，forEach
 
 * new 调用
+
+  * 没有返回值，this指向实例
+
+  * 有返回值，this指向返回值
+
+* 严格模式下，全局环境下this是指向undefined的
 
 
 
