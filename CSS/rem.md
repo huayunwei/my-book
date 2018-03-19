@@ -47,9 +47,11 @@ em：相对于父元素的字体大小的单位
       padding:pxToRem(10px) pxToRem(10px);
       ```
 
-    * 使用@min：https://www.w3cplus.com/preprocessor/sass-px-to-rem-with-mixin-and-function.html
+    * 使用@min：[https://www.w3cplus.com/preprocessor/sass-px-to-rem-with-mixin-and-function.html](https://www.w3cplus.com/preprocessor/sass-px-to-rem-with-mixin-and-function.html)
 
   * .less文件
+
+    * 定义@root：1rem/12
 * ### 实现手机端响应式布局的方法
 
   * 流式布局：宽度百分比+高度固定px
