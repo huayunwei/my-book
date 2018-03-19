@@ -1,7 +1,5 @@
 ## JS相关loader
 
-
-
 * ### babel-loader
 
   * 对于Object.assign并不转换，需要使用下面的插件
