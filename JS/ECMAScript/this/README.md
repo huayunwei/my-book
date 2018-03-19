@@ -36,7 +36,6 @@
     * 内置函数
 
     ```
-    function foo(){console.log(foo)};
     var obj = {foo:foo}
 
     setTimeout(obj.foo,100);//window
@@ -65,13 +64,15 @@
 
 * 严格模式下，全局环境下this是指向undefined的
 
-
-
 ### this绑定优先级
 
 new &gt; 间接调用 &gt; 方法调用 &gt; 全局
 
 
+
+### 箭头函数
+
+this始终指向外层函数的this指向
 
 
 
