@@ -5,6 +5,7 @@
   * childNodes：获取元素的全部子节点
 
   ```
+  /*获取元素类型子节点*/
   function getElNode(el){
       const child = el.childNodes;
       let result = [];
