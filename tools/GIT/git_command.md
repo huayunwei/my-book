@@ -8,6 +8,8 @@
 
   ![](/assets/git_init.png)
 
+* git remote：
+
 * git add：
 
   * git add xxx：将xxx文件添加到缓存中
@@ -15,6 +17,14 @@
   * git add xxx yyy ：将xxx和yyy文件添加到缓存中
 
   * git add .：将当前目录下的所有文件和子文件夹下的文件都添加到缓存中
+
+* git commit：
+
+* git status：
+
+* git push：
+
+* git clone：
 
 
 
