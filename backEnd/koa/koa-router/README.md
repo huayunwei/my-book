@@ -1,6 +1,6 @@
 ## SS
 
-* 下载地址：链接：https://pan.baidu.com/s/1BzTJnoNLCLe8LnwQRunPLQ 密码：uarl
+* 下载地址：链接：[https://pan.baidu.com/s/1BzTJnoNLCLe8LnwQRunPLQ](https://pan.baidu.com/s/1BzTJnoNLCLe8LnwQRunPLQ) 密码：uarl
 
 * 谷歌浏览器插件：
 
