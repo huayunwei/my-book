@@ -1,6 +1,7 @@
 ## SS
 
-* 下载地址：
+* 下载地址：链接：https://pan.baidu.com/s/1BzTJnoNLCLe8LnwQRunPLQ 密码：uarl
+
 * 谷歌浏览器插件：
 
   * [https://github.com/FelisCatus/SwitchyOmega/releases/tag/v2.5.10](https://github.com/FelisCatus/SwitchyOmega/releases/tag/v2.5.10) 下载.crx结尾的文件
