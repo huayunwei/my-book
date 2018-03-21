@@ -28,11 +28,11 @@
 
   * git add .：将当前目录下的所有文件和子文件夹下的文件都添加到缓存中
 
-* git commit：
+* git commit：提交缓存中的文件到仓库中
 
-  * 
+  * git commit -m 描述信息：对提交的文件添加描述信息
 
-* git status：
+* git status：查看提交之后是否还有被修改的文件
 
 * git push：
 
