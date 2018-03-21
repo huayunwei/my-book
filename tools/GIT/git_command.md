@@ -14,6 +14,8 @@
 
   * git remote -v ：查看添加的远程仓库列表
 
+  * git remote show 远程仓库的名字：查看该远程仓库的详细信息
+
 * git add：
 
   * git add xxx：将xxx文件添加到缓存中
