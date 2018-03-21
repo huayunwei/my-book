@@ -38,11 +38,13 @@
 
   * 下面两步等同于git pull
 
-    * git fetch 远程仓库 本地仓库
+    * git fetch 远程仓库名 本地分支名
 
-    * git merge 远程仓库/本地仓库
+    * git merge 远程仓库名/本地分支名
 
 * git push：将提交上来的文件发送到远程仓库中
+
+  * git push 远程仓库名 本地分支名
 
 * git clone：
 
