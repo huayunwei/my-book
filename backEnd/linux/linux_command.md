@@ -27,6 +27,18 @@
   * rm -f 文件路径：强制删除文件
   * rm -r 目录路径：删除目录
   * rm -rf 目录路径：强制删除目录
+* tree：查看目录结构
+* ln：建立软连接
+  * ln -s 真实文件 链接
+* curl：
+  * curl -L urld地址：下载文件
+* wget：
+  * wget -p -H -e robots=off url地址：拷贝网页
+* df：
+  * df -kh：显示磁盘占用
+* du：
+  * du -sh：显示当前目录大小
+  * du -h：显示各个文件的大小
 
 
 
