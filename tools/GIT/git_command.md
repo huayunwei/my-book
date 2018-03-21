@@ -46,7 +46,7 @@
 
   * git push 远程仓库名 本地分支名
 
-* git clone：
+* git clone：从远程仓库拷贝内容到当前文件夹
 
 
 
