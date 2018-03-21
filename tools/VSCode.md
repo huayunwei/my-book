@@ -2,7 +2,7 @@
 
 * 编写代码的软件，下载自带中文版
 
-* 自带emmet：https://www.w3cplus.com/tools/emmet-cheat-sheet.html
+* 自带emmet：[https://www.w3cplus.com/tools/emmet-cheat-sheet.html](https://www.w3cplus.com/tools/emmet-cheat-sheet.html)
 
   * emmet使用
     * html
