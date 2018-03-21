@@ -16,7 +16,11 @@
 
   * git remote show 远程仓库的名字：查看该远程仓库的详细信息
 
-* git add：
+  * git remote rename 原来的名字 新名字：修改远程仓库的名字
+
+  * git remote rm 远程仓库的名字：删除该远程仓库
+
+* git add：将文件添加到缓存中
 
   * git add xxx：将xxx文件添加到缓存中
 
@@ -25,6 +29,8 @@
   * git add .：将当前目录下的所有文件和子文件夹下的文件都添加到缓存中
 
 * git commit：
+
+  * 
 
 * git status：
 
