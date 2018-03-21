@@ -8,7 +8,11 @@
 
   ![](/assets/git_init.png)
 
-* git remote：
+* git remote：远程仓库的相关配置
+
+  * git remote add 远程仓库名字 远程仓库地址：添加远程仓库
+
+  * git remote -v ：查看添加的远程仓库
 
 * git add：
 
