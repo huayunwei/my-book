@@ -34,7 +34,15 @@
 
 * git status：查看提交之后是否还有被修改的文件
 
-* git push：
+* git pull：从远程仓库更新最新的内容到本地
+
+  * 下面两步等同于git pull
+
+    * git fetch 远程仓库 本地仓库
+
+    * git merge 远程仓库/本地仓库
+
+* git push：将提交上来的文件发送到远程仓库中
 
 * git clone：
 
