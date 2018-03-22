@@ -1,5 +1,3 @@
-
-
 ## SS
 
 * 下载地址：链接：[https://pan.baidu.com/s/1BzTJnoNLCLe8LnwQRunPLQ](https://pan.baidu.com/s/1BzTJnoNLCLe8LnwQRunPLQ) 密码：uarl
@@ -15,8 +13,6 @@
   * 点击应用选项
   * 点击工具条中的图标，选择自动切换
   * 关掉ss中的系统代理
-
-
 
 
 
