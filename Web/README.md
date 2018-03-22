@@ -34,6 +34,7 @@
 
   * URN\(Uniform Resource Name\)：统一资源名称，可以确定唯一的资源
 
+* ### DNS（Domain Name System）：域名系统
 * ### HTTP：两个电脑之间传输内容的协议
 * ### HTML：超级文本
 
