@@ -265,40 +265,42 @@
 	* 路径
 		`/etc/nginx/conf.d`
 	* 创建文件
-		```
-		upstream shaoli{
-			server 127.0.0.1:3080;
-		}
+	
+		
+```
+upstream shaoli{
+	server 127.0.0.1:3080;
+}
 
-		server{
-			listen 80;
-			
-			server_name shaoli.huayunwei.cn;
+server{
+	listen 80;
+	
+	server_name shaoli.huayunwei.cn;
 
-			location /{
-				proxy_set_header X-Real-IP $remote_addr;
-				proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;
-				
-				proxy_set_header Host $http_host;
-				proxy_set_header X-Nginx-Proxy true;
+		location /{
+		proxy_set_header X-Real-IP $remote_addr;
+		proxy_set_header X-Forward-For $proxy_add_x_forwarded_for;
+		
+		proxy_set_header Host $http_host;
+		proxy_set_header X-Nginx-Proxy true;
 
-				proxy_pass http://shaoli;
-				proxy_redirect off;
-			}
-			//使用服务器上的静态文件
-			//如果按照如下方式定义如果1.mp3在current文件夹下，则直接http://xxx/1.mp3就可以访问到
-			如果是在current/map/1.mp3，通过http://xxx/map/1.mp3可以访问
-			location ~* ^.+\.(mp3){
-				root /huayunwei/www/shaoli/production/current;
-				client_max_body_size 50M;//上传文件的大小
-
-
+		proxy_pass http://shaoli;
+		proxy_redirect off;
+	}
+	//使用服务器上的静态文件
+	//如果按照如下方式定义如果1.mp3在current文件夹下，则直接http://xxx/1.mp3就可以访问到
+	如果是在current/map/1.mp3，通过http://xxx/map/1.mp3可以访问
+	location ~* ^.+\.(mp3){
+		root /huayunwei/www/shaoli/production/current;
+		client_max_body_size 50M;//上传文件的大小
 
 
-			}
-		}
 
-		```
+
+	}
+}
+
+```
 
 
 
