@@ -1,4 +1,4 @@
-## WWW
+## WWW（**World Wide Web**）
 
 * ### Tim Berners-Lee发明了WWW，并且发明了第一个服务器，第一个浏览器和第一个网页
 * ### 第一个网页地址：[info.cern.ch](http://info.cern.ch/)
