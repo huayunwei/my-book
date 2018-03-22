@@ -26,6 +26,10 @@
 
       * 端口号：port
 
+        * 1--1023系统保留，1024--4999由客户端程序自由分配，5000--65535由服务器端程序自由分配在UDP协议中
+
+        * 
+
       * 路径：path
 
       * 查询参数：query
@@ -39,6 +43,8 @@
   * 作用：输入域名，输出域名对应的ip地址
 * ### HTTP（HyperText Transfer Protocol）：两个电脑之间传输内容的协议
 * ### HTML（HyperText Markup Language）：超级文本
+
+
 
 
 
