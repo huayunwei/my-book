@@ -79,17 +79,17 @@ HTTP - 不保存状态的协议，无状态协议
   * 第二部分的Content-Type用于定义第四部分的格式
   * 第三部分永远是空行，用于区分第二部分和第四部分
   
-```
-1 动词 路径 协议/版本
-2 Key1: value1
-2 Key2: value2
-2 Key3: value3
-2 Content-Type: application/x-www-form-urlencoded
-2 Host: www.baidu.com
-2 User-Agent: curl/7.54.0
-3 
-4 要上传的数据
-```
+  ```
+  1 动词 路径 协议/版本
+  2 Key1: value1
+  2 Key2: value2
+  2 Key3: value3
+  2 Content-Type: application/x-www-form-urlencoded
+  2 Host: www.baidu.com
+  2 User-Agent: curl/7.54.0
+  3 
+  4 要上传的数据
+  ```
 ### 报文的编码
 
 * 内容编码：在实体内容上的编码格式，并保持实体信息原样压缩
