@@ -62,21 +62,7 @@
 * 处于应用层
 * 作用：提供域名到ip之间的解析服务 - 可以正向从域名到IP，也可以逆向从ip反查域名
 
-### URL和URI
 
-* URI：统一资源标识符，由某个协议方案表示的资源的定位标识符 -- 可以是出HTTP外其他的？
-* URL：统一资源定位符，浏览器等访问WEB页面时输入的网页地址 -- 只能是http？
-* URI格式：
-
-  `http://user:pass@www.example.com:80/dir/index.html?name=1#page=1`
-
-  * http:// -- 协议 
-  * user:pass -- 登录信息，可选
-  * www.example.com -- 服务器地址，域名或ip
-  * :80 -- 端口号，可选，默认80
-  * /dir/index.html -- 文件路径
-  * ?name=1 -- 查询字符串，可选
-  * page=1 -- 片段标识符，可选
 
 
 
