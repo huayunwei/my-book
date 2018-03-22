@@ -1,4 +1,4 @@
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+
 
 ## GIT
 
@@ -11,8 +11,6 @@ git config --global push.default simple//simple：默认只推送到当前分支
 git config --global core.quotepath false//防止文件名变成数字
 git config --global core.editor 'vim'//使用vim编辑提交信息
 ```
-
-
 
 
 
