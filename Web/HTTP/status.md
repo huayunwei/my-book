@@ -4,7 +4,7 @@
 
 ### 状态码类别
 
-https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81\#3xx%E9%87%8D%E5%AE%9A%E5%90%91
+[https://zh.wikipedia.org/wiki/HTTP状态码](https://zh.wikipedia.org/wiki/HTTP状态码#3xx重定向)
 
 * 1XX：信息性状态码，接受的请求正在处理
 
