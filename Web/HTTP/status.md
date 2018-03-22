@@ -16,6 +16,20 @@
 
   * 206 Partial Content - 服务端进行了范围请求，响应报文包含由Content-Range指定范围的实体内容
 
+  * ### 获取部分内容的范围请求 - 会返回状态码206的响应报文
+
+    * 在请求报文中包括
+
+      * Range：指定资源的btye范围
+
+    * 在响应报文中包括
+
+      * content-Range
+      * content-Length
+      * content-Type：multipart/byteranges
+
+    * 如果服务器端无法响应范围请求，则返回状态码200 OK和完整的实体内容
+
 * 3XX：重定向状态码，需要进行附加操作以完成请求
 
   * 301 Moved Permanently - 永久性重定向
