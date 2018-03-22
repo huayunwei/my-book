@@ -37,7 +37,7 @@
 * ### DNS（Domain Name System）：域名系统
 
   * 作用：输入域名，输出域名对应的ip地址
-* ### HTTP：两个电脑之间传输内容的协议
+* ### HTTP（HyperText Transfer Protocol）：两个电脑之间传输内容的协议
 * ### HTML（HyperText Markup Language）：超级文本
 
 
