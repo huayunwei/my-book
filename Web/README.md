@@ -35,8 +35,10 @@
   * URN\(Uniform Resource Name\)：统一资源名称，可以确定唯一的资源
 
 * ### DNS（Domain Name System）：域名系统
+
+  * 作用：输入域名，输出域名对应的ip地址
 * ### HTTP：两个电脑之间传输内容的协议
-* ### HTML：超级文本
+* ### HTML（HyperText Markup Language）：超级文本
 
 
 
