@@ -28,7 +28,17 @@
 
         * 1--1023系统保留，1024--4999由客户端程序自由分配，5000--65535由服务器端程序自由分配在UDP协议中
 
-        * 
+        * 21：ftp
+
+        * 22：ssh
+
+        * 443：https
+
+        * 1080：socks网络应用程序代理服务
+
+        * 3306：mysql
+
+        * 80：http
 
       * 路径：path
 
@@ -43,8 +53,6 @@
   * 作用：输入域名，输出域名对应的ip地址
 * ### HTTP（HyperText Transfer Protocol）：两个电脑之间传输内容的协议
 * ### HTML（HyperText Markup Language）：超级文本
-
-
 
 
 
