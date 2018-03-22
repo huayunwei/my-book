@@ -12,6 +12,8 @@
 
     * 完整格式：scheme:\[//\[user\[:password\]@\]host\[:port\]\]\[/path\]\[?query\]\[\#fragment\]
 
+      ![](/assets/URL.png)
+
       * 协议：scheme
 
       * 凭证：user：password
