@@ -4,8 +4,6 @@
 * ### 第一个网页地址：[info.cern.ch](http://info.cern.ch/)
 * ### URI（Uniform Resource Identifier）：统一资源标识符，俗称网址
 
-
-
   * URL\(Uniform Resource Locator\)：统一资源定位符
 
   * URN\(Uniform Resource Name\)：统一资源名称
