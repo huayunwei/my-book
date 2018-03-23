@@ -11,9 +11,14 @@
 #### href：地址，如果为空，点击时会刷新页面，使用javascript:;
 
 * 链接地址
+  * 如果连接地址为相对路径，则会以文件的形式进行打开
+  * 如果打开链接地址，则需要写完整的链接地址，即需要有协议前缀
+  * 如果只写//，则页面当前是什么协议就以什么协议打开这个文件
 
 ```
-<a href="http://www.baidu.com">百度</a>
+<a href="http://www.baidu.com">百度</a>//进入百度页面
+<a href="www.baidu.com">百度</a>//会进入当前目录/www.baidu.com这个地址
+<a href="//www.baidu.com">百度</a>//如果为file://协议，则会进入file://www.baidu.com
 ```
 
 * 下载地址
@@ -74,6 +79,9 @@
 #### download -- 下载
 
 * download="下载名字"
+* 如何实现download
+  * 如果请求里有Content-type：application/octet-stream则进行下载
+  * 否则用a标签中加download
 
 #### rel -- 链接间的关系
 
