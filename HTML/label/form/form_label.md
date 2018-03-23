@@ -14,7 +14,7 @@
 <label for="q1">q1</label>
 <input type="radio" id="q1"/>
 
-//写法2：不适用for，嵌套
+//写法2：不使用for，嵌套
 <label>q1<input type="radio"/></label>
 ```
 
