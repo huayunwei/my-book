@@ -71,7 +71,9 @@
 * \_top：整个窗口
 * \_framename：指定框架
 
-#### download -- 可以下载文件的下载名字
+#### download -- 下载
+
+* download="下载名字"
 
 #### rel -- 链接间的关系
 
