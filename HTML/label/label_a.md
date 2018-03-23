@@ -19,6 +19,7 @@
 <a href="http://www.baidu.com">百度</a>//进入百度页面
 <a href="www.baidu.com">百度</a>//会进入当前目录/www.baidu.com这个地址
 <a href="//www.baidu.com">百度</a>//如果为file://协议，则会进入file://www.baidu.com
+<a href="#"></a>//会自动滚到页面首部
 ```
 
 * 下载地址
