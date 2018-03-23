@@ -6,3 +6,7 @@ input::-ms-clear { display: none;}
 
 input::-ms-reveal { display: none;}
 
+
+
+textarea：{resize：none}
+
