@@ -6,7 +6,9 @@ input::-ms-clear { display: none;}
 
 input::-ms-reveal { display: none;}
 
+textarea控制宽高：
 
+1.{resize：none}
 
-textarea：{resize：none}
+2.cols，rows
 
