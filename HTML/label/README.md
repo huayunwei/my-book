@@ -3,6 +3,8 @@
 ### 标签和元素
 
 * 标签：&lt;p&gt; -- 开始标签，&lt;p/&gt; -- 结束标签
+  * 所有标签：https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5/HTML5\_element\_list
+  * 空标签
 * 元素：从开始标签到结束标签的所有代码，元素内容为开始标签与结束标签之间的内容
 
 ### 元素分类
