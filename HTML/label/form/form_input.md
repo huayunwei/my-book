@@ -108,7 +108,7 @@
 
   * reset：创建重置表单的按钮，value默认为重置
 
-  * submit：提交表单的按钮，value默认为提交
+  * submit：提交表单的按钮，value默认为提交，如果有submit则回车时会自动提交，如果是button就不会
 
   * text：单行输入字段，可以输入文本
 
