@@ -4,7 +4,24 @@
 
 * 标签：&lt;p&gt; -- 开始标签，&lt;p/&gt; -- 结束标签
   * 所有标签：[https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5/HTML5\_element\_list](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
-  * 空标签：开始标签中关闭的
+  * 空标签：不可能存在子节点（例如内嵌的元素或者元素内的文本）的element
+    * area
+    * base
+    * br
+    * col
+    * colgroup
+    * command
+    * embed
+    * hr
+    * img
+    * input
+    * keygen
+    * link
+    * meta
+    * param
+    * source
+    * track
+    * wbr
 * 元素：从开始标签到结束标签的所有代码，元素内容为开始标签与结束标签之间的内容
 
 ### 元素分类
