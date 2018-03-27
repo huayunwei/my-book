@@ -6,6 +6,12 @@
 
   * 缺点：child中的文字也会居中显示，可以子元素text-align:left恢复左侧显示
 
+* table + margin![](/assets/center_table.png)
+
+  * 原理：
+
+  * 缺点：
+
 * 
 
 
