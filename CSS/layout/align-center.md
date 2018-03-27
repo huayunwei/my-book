@@ -19,7 +19,9 @@
   * 原理：子元素table，加上margin:0 auto
   * 缺点：
 
-* position + margin![](/assets/center_position_margin.png)
+* position + margin![](/assets/center_position_transform.png)
+
+  * 用法：父元素position:relative;子元素position:absolute;top:0;left:50%
 
 
 
