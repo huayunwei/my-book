@@ -19,6 +19,7 @@
   * 原理：子元素table，加上margin:0 auto
   * 缺点：
 
-* 
+* position + margin![](/assets/center_position_margin.png)
+
 
 
