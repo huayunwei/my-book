@@ -18,9 +18,13 @@
 
   * 用法：子元素table，加上margin:0 auto
 
-* position + margin![](/assets/center_position_transform.png)
+* position + transform![](/assets/center_position_transform.png)
 
   * 用法：父元素position:relative;子元素position:absolute;top:0;left:50%
+
+* flex + margin![](/assets/flex_margin.png)
+  * 用法：父元素display:flex，子元素margin:0 auto;
+  * 缺点：子元素的高度会默认为父元素的高度
 
 
 
