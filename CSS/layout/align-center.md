@@ -6,6 +6,8 @@
 
 * 子元素宽度指定：width+position+margin![](/assets/center_width_position.png)
 
+  * 原理：子元素给定宽度，子元素postion:absolute;，子元素margin-left:宽度一半
+
 * inline-block + text-align![](/assets/center_inline_block.png)
 
   * 原理：子元素inline-block，父元素text-align：center
