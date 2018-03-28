@@ -57,6 +57,18 @@
         width:100px;
         margin-left:-100%;
     }
+    .mid-parent{
+        width:100%;
+        float:left;
+    }
+    .middle{
+        margin:0 100px;
+    }
+    .right{
+        float:left;
+        width:100px;
+        margin-left:-100px;
+    }
     ```
 
   * float + margin
