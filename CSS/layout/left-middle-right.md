@@ -22,5 +22,34 @@
 
 * 左右定宽，中自适应
 
+  * 绝对定位![](/assets/lrm_position.png)
+
+    * 使用
+
+    ```
+    .parent{
+        position:relative;
+    }
+    .left{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100px;
+    }
+    .right{
+        position:absolute;
+        top:0;
+        right:0;
+        width:100px;
+    }
+    .middle{
+        margin:0 100px;
+    }
+    ```
+
+  * float + margin
+
+  * float + margin
+
 
 
