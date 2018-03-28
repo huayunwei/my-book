@@ -69,12 +69,29 @@
 
 * flex + margin![](/assets/flex_margin.png)
 
-  * 用法：父元素display:flex，子元素margin:0 auto;
+  * 用法
+
+  ```
+  .parent{
+      display:flex;
+  }
+  .child{
+   margin:0 auto;   
+  }
+  ```
+
   * 注：子元素的高度会默认为父元素的高度
 
 * flex + justify![](/assets/flex_justify.png)
 
-  * 用法：父元素display:flex，justify-content:flex;
+  * 用法
+
+  ```
+  .parent{
+      display:flex;
+      justify-content:center;
+  }
+  ```
 
 
 
