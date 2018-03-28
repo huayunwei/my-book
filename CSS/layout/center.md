@@ -19,7 +19,26 @@
   }
   ```
 
-* 给定宽度和高度：position + margin
+* 给定宽度和高度：position + margin![](/assets/both_position_margin2.png)
+
+  * 用法：
+
+  ```css
+  .parent{
+      position:relative;
+  }
+  .child{
+      position:absolute;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      margin:auto;
+    
+      width:xxx;
+      height:xxx;
+  }
+  ```
 
 * position + transform
 
