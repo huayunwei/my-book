@@ -1,6 +1,6 @@
 ## 水平垂直居中
 
-* 给定宽度和高度：position + margin
+* 给定宽度和高度：position + margin![](/assets/both_position_margin.png)
 
   * 用法：
 
