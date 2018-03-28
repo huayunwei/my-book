@@ -1,6 +1,7 @@
 ## 左右布局
 
 * float + overflow![](/assets/left_right_float_overflow.gif)
+
   * 使用：
 
   ```
@@ -14,7 +15,8 @@
   }
   ```
 
-* float + margin![](/assets/left_right_float_margin.gif)
+* float + margin![](/assets/left_right_float_margin.gif)![](/assets/left_right_float_margin.png)
+
   * 使用
 
   ```
@@ -29,6 +31,7 @@
   ```
 
 * table
+
 * flex
 
 
