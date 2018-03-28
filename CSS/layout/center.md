@@ -63,15 +63,25 @@
   ```
   .parent{
       display:table-cell;//加这个才能实现垂直居中
-      text-align:center;
-      vertical-align:middle;
+      text-align:center;//用于水平居中
+      vertical-align:middle;//用于垂直居中
   }
   .child{
       display:inline-block;
   }
   ```
 
-* flex + align-items + justify-content + align-items
+* flex + align-items + justify-content + align-items![](/assets/both_flex.png)
+
+  * 用法
+
+  ```css
+  .parent{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+  }
+  ```
 
 
 
