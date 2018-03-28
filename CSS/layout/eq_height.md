@@ -3,6 +3,14 @@
 * table
 * flex![](/assets/eq_height_flex.png)
 
+  * 使用
+
+  ```
+  .parent{
+      display:flex;
+  }
+  ```
+
 * position  
   ![](/assets/eq_height.gif)
 
