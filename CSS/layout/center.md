@@ -71,7 +71,7 @@
   }
   ```
 
-* flex + align-items + justify-content + align-items![](/assets/both_flex.png)
+* flex + align-items + justify-content + align-items![](/assets/both_flex_.png)
 
   * 用法
 
