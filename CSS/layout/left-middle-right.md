@@ -2,7 +2,7 @@
 
 ### 两列定宽一列自适应
 
-* 左中定宽，右自适应![](/assets/lmr_float.png)
+* 左中定宽，右自适应
 
   * 使用
 
@@ -48,6 +48,16 @@
     ```
 
   * float + margin
+
+    * 使用：注意html的写法
+
+    ```
+    .left{
+        float：left;
+        width:100px;
+        margin-left:-100%;
+    }
+    ```
 
   * float + margin
 
