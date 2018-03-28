@@ -56,7 +56,20 @@
   }
   ```
 
-* inline-block + text-align + table-cell + vertical-align
+* inline-block + text-align + table-cell + vertical-align![](/assets/both_inline-block_table-cell.png)
+
+  * 用法
+
+  ```
+  .parent{
+      display:table-cell;//加这个才能实现垂直居中
+      text-align:center;
+      vertical-align:middle;
+  }
+  .child{
+      display:inline-block;
+  }
+  ```
 
 * flex + align-items + justify-content + align-items
 
