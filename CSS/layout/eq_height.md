@@ -1,6 +1,7 @@
 ## 等高布局
 
-* table
+* table![](/assets/eq_height_table.png)
+
 * flex![](/assets/eq_height_flex.png)
 
   * 使用
