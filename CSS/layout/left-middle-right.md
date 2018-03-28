@@ -47,7 +47,7 @@
     }
     ```
 
-  * float + margin
+  * float + margin![](/assets/lrm_margin.gif)
 
     * 使用：注意html的写法
 
