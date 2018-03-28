@@ -44,10 +44,9 @@
   }
   ```
 
-* ```
-  position + transform 
-  ```
+* position + transform
 
+  ![](/assets/position_transform.png)
   * 用法
 
   ```
@@ -61,6 +60,7 @@
       transform:translateY(-50%);
   }
   ```
+
 * flex + align-items![](/assets/flex_align-items.png)
 
   * 用法
