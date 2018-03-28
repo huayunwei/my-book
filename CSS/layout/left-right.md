@@ -30,7 +30,21 @@
   }
   ```
 
-* table
+* table![](/assets/left_right_table.gif)
+
+  * 使用
+
+  ```
+  .parent{
+      display:table;
+  }
+  .left{
+      width:100px;
+  }
+  .left,.right{
+      display:table-cell;
+  }
+  ```
 
 * flex
 
