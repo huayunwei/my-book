@@ -2,6 +2,17 @@
 
 * table![](/assets/eq_height_table.png)
 
+  * 使用
+
+  ```
+  .parent{
+      display:table;
+  }
+  .right,.left{
+      display:table-cell;
+  }
+  ```
+
 * flex![](/assets/eq_height_flex.png)
 
   * 使用
