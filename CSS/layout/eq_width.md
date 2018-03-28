@@ -17,6 +17,7 @@
   ```
 
 * table![](/assets/table.png)
+
   * 使用
 
   ```
@@ -27,6 +28,19 @@
   .col{
      display:table-cell;
      padding-left:20px;   
+  }
+  ```
+
+* flex
+  ![](/assets/eq_flex.png)
+  * 使用
+
+  ```
+  .parent{
+      display:flex;
+  }
+  .col{
+      flex:1;
   }
   ```
 
