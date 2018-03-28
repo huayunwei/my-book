@@ -71,7 +71,23 @@
     }
     ```
 
-  * float + margin
+  * float + margin![](/assets/lrm_float.png)
+
+  * 使用：注意html的写法
+
+  ```
+  .left{
+      float:left;
+      width:100px;
+  }
+  .right{
+      float:right;
+      width:100px;
+  }
+  .main{
+      margin:0 100px;
+  }
+  ```
 
 
 
