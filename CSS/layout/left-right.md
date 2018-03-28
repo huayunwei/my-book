@@ -1,4 +1,4 @@
-## 左右布局
+## 左右布局：左侧定宽，右侧自适应
 
 * float + overflow![](/assets/left_right_float_overflow.gif)
 
@@ -46,7 +46,18 @@
   }
   ```
 
-* flex
+* flex![](/assets/left_right_flex.png)
+
+  * 使用
+
+  ```
+  .parent{
+      display:flex;
+  }
+  .right{
+      flex:1;
+  }
+  ```
 
 
 
