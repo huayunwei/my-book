@@ -44,7 +44,9 @@
   }
   ```
 
-* position + transform![](/assets/position_transform.png)
+* ```
+  position + transform 
+  ```
 
   * 用法
 
@@ -59,10 +61,16 @@
       transform:translateY(-50%);
   }
   ```
-
 * flex + align-items![](/assets/flex_align-items.png)
 
-  * 用法：父元素display:flex，align-items：center
+  * 用法
+
+  ```
+  .parent{
+      display:flex;
+      align-items:center;
+  }
+  ```
 
 
 
