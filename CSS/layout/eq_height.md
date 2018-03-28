@@ -1,9 +1,11 @@
 ## 等高布局
 
 * table
-* flex
-* position
+* flex![](/assets/eq_height_flex.png)
+
+* position  
   ![](/assets/eq_height.gif)
+
   * 缺点：必须设置父元素的高度
   * 使用
 
