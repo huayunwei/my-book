@@ -34,13 +34,27 @@
       left:0;
       right:0;
       margin:auto;
-    
+
       width:xxx;
       height:xxx;
   }
   ```
 
-* position + transform
+* position + transform![](/assets/both_position_transfrom.png)
+
+  * 用法
+
+  ```css
+  .parent{
+      position:relative;
+  }
+  .child{
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+  }
+  ```
 
 * inline-block + text-align + table-cell + vertical-align
 
