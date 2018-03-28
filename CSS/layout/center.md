@@ -4,7 +4,7 @@
 
   * 用法：
 
-  ```
+  ```css
   .parent{
       position:relative;
   }
@@ -22,6 +22,7 @@
 * 给定宽度和高度：position + margin
 
 * position + transform
+
 * inline-block + text-align + table-cell + vertical-align
 * flex + align-items + justify-content + align-items
 
