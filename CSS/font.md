@@ -14,5 +14,16 @@
   overflow:hidden;
   ```
 
+### 垂直居中
+
+* padding + line-height
+
+```
+//如果需要父元素为40px
+line-height:24px;
+padding:8px 0;
+```
+
+* 
 
 
