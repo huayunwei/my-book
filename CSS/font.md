@@ -18,9 +18,9 @@
 
 * padding + line-height
 
-```
+```css
 //如果需要父元素为40px
-line-height:24px;
+line-height:24px;//实现垂直居中
 padding:8px 0;
 ```
 
