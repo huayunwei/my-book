@@ -9,6 +9,13 @@
 parent.appendChild(child);
 ```
 
-* 
+* insertBefore：添加一个节点到一个参照节点之前
+
+```
+//newNode:要添加的节点
+//refNode：参照节点
+parent.insertBefore(newNode,refNode);
+```
+
 
 
