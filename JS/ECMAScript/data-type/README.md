@@ -1,5 +1,7 @@
 ## 原生对象
 
+### 共7中类型：number string boolean symbol undefined null object
+
 ### 原始类型（原始值）
 
 * 不可更改
@@ -23,8 +25,6 @@ boolean
 * 使用堆存储，在栈存储一个指针，指向堆中的值
 
 ### 内置对象
-
-
 
 object
 
