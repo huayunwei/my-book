@@ -12,5 +12,12 @@ document.createElement('div');
 document.createTextNode('xxx');
 ```
 
+* cloneNode：返回调用方法的节点的副本
+
+```
+document.cloneNode(true);//复制子节点
+document.cloneNode(false);//不复制子节点
+```
+
 
 
