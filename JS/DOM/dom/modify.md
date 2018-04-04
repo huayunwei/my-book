@@ -21,5 +21,9 @@ parent.insertBefore(newNode,refNode);
 
 * removeChild：删除指定子节点，并返回删除的子节点
 
+```
+var del = parent.removeChild(node)'
+```
+
 
 
