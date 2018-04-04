@@ -2,5 +2,15 @@
 
 * createElement：指定标签名创建一个元素，传入的标签名未知，则创建一个自定义标签，IE8以下不支持自定义标签
 
+```
+document.createElement('div');
+```
+
+* creatTextNode：创建一个文本节点
+
+```
+document.createTextNode('xxx');
+```
+
 
 
