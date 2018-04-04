@@ -10,6 +10,8 @@ parent.appendChild(child);
 ```
 
 * insertBefore：添加一个节点到一个参照节点之前
+  * refNode是必传的，如果不传该参数会报错
+  * 如果refNode是undefined或null，则insertBefore会将节点添加到子元素的末尾
 
 ```
 //newNode:要添加的节点，会添加在refNode之前
