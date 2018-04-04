@@ -21,5 +21,7 @@ document.cloneNode(true);//复制子节点
 document.cloneNode(false);//不复制子节点
 ```
 
+* createDocumentFragment：创建一个DocumentFragment，文档片段，用于临时存储节点
+
 
 
