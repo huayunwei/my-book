@@ -26,5 +26,12 @@ parent.insertBefore(newNode,refNode);
 var del = parent.removeChild(node);
 ```
 
+* replaceChild：使用一个节点替换另一个节点
+  * newChild：替换的节点，可以是新节点，或页面上的节点，如果是页面上的节点，则移动到新位置
+
+```
+parent.replaceChild(newChild,oldChild);
+```
+
 
 
