@@ -4,7 +4,7 @@
 
   * 字面量：var a = \[\]
 
-  * 构造函数：new Array\(\)
+  * 构造函数：new Array\(\)，可以不加new，即Array和new Array一样
 
     * 没有参数，创建一个空数组
 
