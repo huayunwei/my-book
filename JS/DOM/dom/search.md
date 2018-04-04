@@ -15,6 +15,7 @@
   * 根据css选择器来查找元素
   * querySelector返回第一个匹配的元素，没有返回null
   * querySelectorAll返回所有匹配的元素
+  * IE8以下不支持
 
 
 
