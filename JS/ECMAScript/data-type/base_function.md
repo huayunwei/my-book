@@ -30,6 +30,9 @@
   //fun只能在内部使用，而外部的调用需要使用funcname
   var funcname = function fun(){}
   ```
+
+### ![](/assets/function.png)
+
 * ### 函数调用
 
   * 函数调用
