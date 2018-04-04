@@ -18,7 +18,7 @@ var a = prompt('弹框中显示的值')
 
 ![](/assets/window_prompt2.png)
 
-* comfirm
+* confirm：弹框，返回用户的选项，确定返回true，取消返回false
 
-
+![](/assets/window_confirm.png)
 
