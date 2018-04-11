@@ -26,3 +26,24 @@ border-box：
 
 HTML中位置决定排布顺序
 
+## CSS定位方式
+
+* display：
+  * block：可以设置盒模型相关属性，独占一行，宽度默认为父元素宽度
+
+  ```
+  div h1-h6 ul li p
+  ```
+
+  * inline：与其他元素共占一行，宽高由内容决定，只能设置水平的margin，padding有效
+
+  ```
+  span a i
+  ```
+
+  * inline-block：宽高可以设置，但是与其他元素共占一行，即对外类似inline，对内类似block
+
+  * table-cell
+
+
+
