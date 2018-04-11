@@ -46,5 +46,15 @@ HTML中位置决定排布顺序
 
   * table-cell：以单元格形式呈现
 
+* position：
+
+  * relative：相对定位，
+
+  * absolute：绝对定位
+
+  * fixed：固定定位
+
+  * static：无定位，默认
+
 
 
