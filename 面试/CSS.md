@@ -29,6 +29,7 @@ HTML中位置决定排布顺序
 ## CSS定位方式
 
 * display：
+
   * block：可以设置盒模型相关属性，独占一行，宽度默认为父元素宽度
 
   ```
@@ -43,7 +44,7 @@ HTML中位置决定排布顺序
 
   * inline-block：宽高可以设置，但是与其他元素共占一行，即对外类似inline，对内类似block
 
-  * table-cell
+  * table-cell：以单元格形式呈现
 
 
 
