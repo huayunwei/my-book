@@ -46,6 +46,22 @@
     * Less
 * JS
   * [ECMAScript](ecmascript.md)
+    * [基础](/JS/ECMAScript/base/README.md)
+      * [运算符](/JS/ECMAScript/base/base_operator.md)
+      * [标识符](/JS/ECMAScript/base/base_variable.md)
+      * [严格模式](/JS/ECMAScript/base/base_strict.md)
+    * 数据类型
+      * [数组](/JS/ECMAScript/data-type/base_array.md)
+      * [布尔值](/JS/ECMAScript/data-type/base_boolean.md)
+      * [函数](/JS/ECMAScript/data-type/base_function.md)
+      * [MATH](/JS/ECMAScript/data-type/base_math.md)
+      * [数字](/JS/ECMAScript/data-type/base_number.md)
+      * [对象](/JS/ECMAScript/data-type/base_object.md)
+      * [字符](/JS/ECMAScript/data-type/base_string.md)
+      * [undefined、null](/JS/ECMAScript/data-type/base_undefined_null.md)
+      * [类型改变](/JS/ECMAScript/data-type/type_change.md)
+      * [类型判断](/JS/ECMAScript/data-type/type_check.md)
+    * [this](/JS/ECMAScript/this/README.md)
   * ES6
   * DOM
   * BOM
